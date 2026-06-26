@@ -54,7 +54,7 @@ show_title: false
         </div>
       </a>
 
-      <a href="{{ '/exhibits/comunità-locale/' | relative_url }}" class="nucleo-card">
+      <a href="{{ '/exhibits/comunita-locale/' | relative_url }}" class="nucleo-card">
         <figure class="nucleo-image">
           <img src="{{ '/assets/images/home/nucleo-2-cover.jpg' | relative_url }}" alt="Copertina del nucleo Comunità locale e tutela">
         </figure>

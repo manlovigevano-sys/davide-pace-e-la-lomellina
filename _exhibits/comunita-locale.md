@@ -7,7 +7,7 @@ label: "Comunità locale e tutela"
 subtitle: "Archeologia, territorio e relazioni"
 author: Archivio Pace
 publish_date: 2026-05-09
-permalink: /exhibits/comunità-locale/
+permalink: /exhibits/comunita-locale/
 topic: territorio e tutela
 summary: "Esplorare il ruolo delle relazioni tra archeologia, territorio e istituzioni nella costruzione e nella salvaguardia della conoscenza archeologica."
 thumbnail: /assets/images/home/nucleo-2-cover.jpg
