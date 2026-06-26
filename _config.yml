@@ -21,7 +21,7 @@ title:            'Davide Pace e la Lomellina'
 tagline:          'Mostra digitale'
 description:      'Riconnettere l’archivio ai reperti: dai luoghi di rinvenimento al museo'
 url:              "https://manlovigevano-sys.github.io"
-baseurl:          "/davide-pace-e-la-lomellina"
+baseurl:          "/davide-pace-in-lomellina"
 copyright:        'Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
