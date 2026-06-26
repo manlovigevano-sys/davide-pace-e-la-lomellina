@@ -7,6 +7,7 @@
 {% else %}
   {% assign subset = nil %}
 {% endif %}
+{% assign visible_collection = collection | where_exp: 'item', 'item.hide_from_collection != true and item.hide_from_collection != "true" and item.published != false and item.published != "false"' %}
 
 <div id='{{ id }}-container' class='wax-gallery-container full-width'>
   <div class='wax-inline-container'>
@@ -24,11 +25,17 @@
       let gallery = $('#wax-gallery-{{ id }}');
       let buttonDiv = $('#{{ id }}-facet-buttons');
 
-      {% for item in subset %}
-        {%- capture item_html -%}
-          "<div class='gallery-item {{ item[include.facet_by] | slugify }} all'><a href='{{ item.url | absolute_url }}'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: site.default_thumb | absolute_url }}' alt='{{ item.label | escape }}'/><div class='overlay'><p class='info'>{{ item.label | escape }}</p></div></div></a></div>"
-        {%- endcapture -%}
-        gallery.append({{ item_html | strip_newlines }});
+      {% assign visible_subset = subset | where_exp: 'item', 'item.hide_from_collection != true and item.hide_from_collection != "true" and item.published != false and item.published != "false"' %}
+      {% for item in visible_subset %}
+        {% assign thumb = item.thumbnail | default: site.default_thumb %}
+        {% assign thumb_file = site.static_files | where: 'path', thumb | first %}
+        {% unless thumb_file %}
+          {% assign thumb = site.default_thumb %}
+        {% endunless %}
+          {%- capture item_html -%}
+            "<div class='gallery-item {{ item[include.facet_by] | slugify }} all'><a href='{{ item.url | absolute_url }}'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='{{ thumb | absolute_url }}' alt='{{ item.label | escape }}'/><div class='overlay'><p class='info'>{{ item.label | escape }}</p></div></div></a></div>"
+          {%- endcapture -%}
+          gallery.append({{ item_html | strip_newlines }});
       {% endfor %}
     });
   </script>
@@ -40,19 +47,27 @@
       let buttonDiv = $('#{{ id }}-facet-buttons');
 
 
-      {% for item in collection %}
-        {%- capture item_html -%}
-          "<div class='gallery-item {{ item[include.facet_by] | default: undefined | slugify }} all'><a href='{{ item.url | absolute_url }}'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='{{ item.thumbnail | default: site.default_thumb | absolute_url }}' alt='{{ item.label | escape }}'/><div class='overlay'><p class='info'>{{ item.label | escape }}</p></div></div></a></div>"
-        {%- endcapture -%}
-        gallery.append({{ item_html | strip_newlines }});
+      {% for item in visible_collection %}
+        {% assign thumb = item.thumbnail | default: site.default_thumb %}
+        {% assign thumb_file = site.static_files | where: 'path', thumb | first %}
+        {% unless thumb_file %}
+          {% assign thumb = site.default_thumb %}
+        {% endunless %}
+          {%- capture item_html -%}
+            "<div class='gallery-item {{ item[include.facet_by] | default: undefined | slugify }} all'><a href='{{ item.url | absolute_url }}'><div class='hovereffect'><img class='img-responsive gallery-thumb' src='{{ thumb | absolute_url }}' alt='{{ item.label | escape }}'/><div class='overlay'><p class='info'>{{ item.label | escape }}</p></div></div></a></div>"
+          {%- endcapture -%}
+          gallery.append({{ item_html | strip_newlines }});
       {% endfor %}
 
       {% if include.facet_by %}
-        var facets = Array.from(new Set([{%- for item in collection -%}'{{ item[include.facet_by] | default: undefined | slugify }}'{% unless forloop.last %}, {% endunless %}{%- endfor -%}]));
-        buttonDiv.append("<button class='btn facet active' data-filter='all'>show all</button>");
+        var facetPairs = [{%- for item in visible_collection -%}{ filter: '{{ item[include.facet_by] | default: undefined | slugify }}', label: '{{ item[include.facet_by] | default: undefined | escape }}' }{% unless forloop.last %}, {% endunless %}{%- endfor -%}].filter(function(facet) { return facet.filter; });
+        var facetMap = {};
+        facetPairs.forEach(function(facet) { facetMap[facet.filter] = facet.label; });
+        var facets = Object.keys(facetMap).map(function(filter) { return { filter: filter, label: facetMap[filter] }; });
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>mostra tutto</button>");
 
         for (i in facets) {
-          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i]}'>${facets[i]}</button>`);
+          buttonDiv.append(`<button class='btn facet' data-filter='${facets[i].filter}'>${facets[i].label}</button>`);
         }
 
         $(document).ready(function(){

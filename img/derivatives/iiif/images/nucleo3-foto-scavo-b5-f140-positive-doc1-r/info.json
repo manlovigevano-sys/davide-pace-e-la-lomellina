@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2506,
+    "height":  1793,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  179
+                  },
+                  {
+                      "width":  1140,
+                      "height":  816
+                  },
+                  {
+                      "width":  2506,
+                      "height":  1793
+                  },
+                  {
+                      "width":  2506,
+                      "height":  1793
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

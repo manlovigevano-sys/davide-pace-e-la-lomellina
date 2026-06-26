@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-passerini-fornace-f246-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  4257,
+    "height":  5730,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  337
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1534
+                  },
+                  {
+                      "width":  4257,
+                      "height":  5730
+                  },
+                  {
+                      "width":  4257,
+                      "height":  5730
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

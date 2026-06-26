@@ -1,4 +1,7 @@
 {% assign item  = site[include.collection] | where: 'pid', include.pid | first %}
+{% unless item %}
+  {% assign item = site[include.collection] | where: 'original_pid', include.pid | first %}
+{% endunless %}
 
 <div class='inline-image-reference'>
   <a href='{{ item.url | absolute_url }}'>

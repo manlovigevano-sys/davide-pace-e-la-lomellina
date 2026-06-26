@@ -1,0 +1,2200 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b05-f140-manoscritti/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Documentazione manoscritta e grafica dello scavo, b. 5, fasc. 140",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b05-f140-manoscritti"
+    },
+    {
+      "label": "PID precedente",
+      "value": "nucleo3-manoscritti-b5-f140"
+    },
+    {
+      "label": "Titolo",
+      "value": "Documentazione manoscritta e grafica dello scavo, b. 5, fasc. 140"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "giornale di scavo"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "27 gennaio 1961"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Marone, Settore Panzarasa"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 5, fasc. 140, doc. 4-25"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "35 immagini digitali"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Marone; Settore Panzarasa; scavi archeologici; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Giornale di scavo e annotazioni tecniche dell'Archivio Davide Pace, con dati sul rinvenimento, sulla disposizione dei materiali e sulle osservazioni effettuate nel contesto di Gropello Cairoli (PV), località Marone, Settore Panzarasa."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Documentare l'invisibile"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/documentare-invisibile/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/nucleo3-manoscritti-b5-f140.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc4-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 4 recto",
+          "width": 2136,
+          "height": 2696,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 4 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 4 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD004_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc4-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2136,
+                "height": 2696
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc4-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc4-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 4 verso",
+          "width": 2130,
+          "height": 2699,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 4 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 4 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD004_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc4-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2130,
+                "height": 2699
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc4-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc5-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 5 verso",
+          "width": 2134,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc5-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 5 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 5 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD005_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc5-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc5-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc5-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2134,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc5-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc6-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 6 recto",
+          "width": 2133,
+          "height": 2696,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc6-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 6 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 6 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD006_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc6-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc6-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc6-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2133,
+                "height": 2696
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc6-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc7-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 7 recto",
+          "width": 2151,
+          "height": 2688,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc7-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 7 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 7 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD007_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc7-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc7-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc7-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2151,
+                "height": 2688
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc7-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc8-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 8 recto",
+          "width": 2143,
+          "height": 2688,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc8-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 8 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 8 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD008_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc8-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc8-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc8-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2143,
+                "height": 2688
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc8-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc9-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 9 recto",
+          "width": 2131,
+          "height": 2681,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc9-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 9 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 9 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD009_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc9-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc9-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc9-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2131,
+                "height": 2681
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc9-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc10-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 10 recto",
+          "width": 2137,
+          "height": 2671,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc10-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 10 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 10 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD010_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc10-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc10-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc10-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2137,
+                "height": 2671
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc10-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc11-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 11 recto",
+          "width": 2136,
+          "height": 2666,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc11-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 11 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 11 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD011_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc11-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc11-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc11-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2136,
+                "height": 2666
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc11-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc12-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 12 recto",
+          "width": 2137,
+          "height": 2672,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc12-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 12 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 12 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD012_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc12-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc12-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc12-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2137,
+                "height": 2672
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc12-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 13 recto",
+          "width": 2128,
+          "height": 2685,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 13 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 13 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD013_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc13-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2128,
+                "height": 2685
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 13 verso",
+          "width": 2125,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 13 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 13 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD013_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc13-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2125,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc14-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 14 recto",
+          "width": 2151,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 14 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 14 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD014_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc14-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2151,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc14-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc14-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 14 verso",
+          "width": 2142,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 14 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 14 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD014_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc14-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc14-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2142,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc14-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc15-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 15 recto",
+          "width": 2101,
+          "height": 2663,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 15 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 15 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD015_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc15-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2101,
+                "height": 2663
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc15-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc15-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 15 verso",
+          "width": 2134,
+          "height": 2656,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 15 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 15 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD015_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc15-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc15-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2134,
+                "height": 2656
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc15-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc16-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 16 recto",
+          "width": 2126,
+          "height": 2662,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 16 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 16 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD016_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc16-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2126,
+                "height": 2662
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc16-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc16-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 16 verso",
+          "width": 2125,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 16 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 16 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD016_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc16-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2125,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc16-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc17-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 17 recto",
+          "width": 2131,
+          "height": 2690,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 17 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 17 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD017_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc17-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2131,
+                "height": 2690
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc17-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc17-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 17 verso",
+          "width": 2116,
+          "height": 2689,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 17 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 17 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD017_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc17-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc17-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2116,
+                "height": 2689
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc17-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc18-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 18 recto",
+          "width": 2116,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 18 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 18 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD018_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc18-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2116,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc18-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc18-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 18 verso",
+          "width": 2125,
+          "height": 2696,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 18 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 18 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD018_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc18-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc18-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2125,
+                "height": 2696
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc18-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc19-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 19 recto",
+          "width": 2134,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 19 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 19 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD019_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc19-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2134,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc19-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc19-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 19 verso",
+          "width": 2116,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 19 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 19 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD019_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc19-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc19-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2116,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc19-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc20-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 20 recto",
+          "width": 2120,
+          "height": 2683,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 20 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 20 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD020_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc20-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2120,
+                "height": 2683
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc20-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc20-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 20 verso",
+          "width": 2142,
+          "height": 2675,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 20 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 20 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD020_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc20-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc20-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2142,
+                "height": 2675
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc20-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc21-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 21 recto",
+          "width": 2132,
+          "height": 2660,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 21 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 21 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD021_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc21-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2132,
+                "height": 2660
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc21-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc21-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 21 verso",
+          "width": 2129,
+          "height": 2657,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 21 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 21 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD021_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc21-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc21-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2129,
+                "height": 2657
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc21-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc22-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 22 recto",
+          "width": 2151,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 22 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 22 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD022_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc22-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2151,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc22-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc22-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 22 verso",
+          "width": 2134,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 22 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 22 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD022_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc22-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc22-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2134,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc22-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc23-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 23 recto",
+          "width": 2129,
+          "height": 2655,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 23 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 23 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD023_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc23-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2129,
+                "height": 2655
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc23-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc23-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 23 verso",
+          "width": 2139,
+          "height": 2688,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 23 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 23 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD023_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc23-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc23-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2139,
+                "height": 2688
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc23-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc24-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 24 recto",
+          "width": 2144,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 24 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 24 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD024_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc24-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2144,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc24-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc24-v.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 24 verso",
+          "width": 2142,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 24 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 24 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD024_ME_V.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc24-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc24-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2142,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc24-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc25-r.json' | absolute_url }}",
+          "label": "Documentazione manoscritta e grafica, doc. 25 recto",
+          "width": 2107,
+          "height": 2670,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc25-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Documentazione manoscritta e grafica, doc. 25 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 25 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD025_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc25-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc25-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc25-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2107,
+                "height": 2670
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc25-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc4-r/full/1140,/0/default.jpg' | absolute_url }}"
+}

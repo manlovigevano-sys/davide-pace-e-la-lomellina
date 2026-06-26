@@ -11,10 +11,18 @@
     Only display non-empty values
     {% endcomment %}
     {% if value | strip != '' %}
-      {% if item.type == 'link' %}
+      {% if item.label == 'Sezione mostra' and page.exhibit_url %}
+        {%- capture value -%}
+          <a href="{{ page.exhibit_url | relative_url }}">{{ value }}</a>
+        {%- endcapture -%}
+      {% elsif item.type == 'link' %}
         {% if key == 'manifest' %}
           {%- capture value -%}
             <a href="{{ value | absolute_url }}" target="_blank" rel="noreferrer">{{ value | absolute_url }}</a>
+          {%- endcapture -%}
+        {% elsif key == 'exhibit_url' %}
+          {%- capture value -%}
+            <a href="{{ value | relative_url }}">{{ page.exhibit_section | default: 'Apri la sezione nella mostra' }}</a>
           {%- endcapture -%}
         {% else %}
           {%- capture value -%}

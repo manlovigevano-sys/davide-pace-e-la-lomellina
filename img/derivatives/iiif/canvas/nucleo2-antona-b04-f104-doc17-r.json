@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc17-r.json",
+    "label":  "Collaboratori con reperto durante attivit? sul campo, doc. 17",
+    "width":  3318,
+    "height":  2102,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Collaboratori con reperto durante attivit? sul campo, doc. 17"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "documentazione fotografica"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 4, fasc. 104, doc. 17"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B04_F104_UD017_R_ME.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc17-r.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  3318,
+                                        "height":  2102
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc17-r.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

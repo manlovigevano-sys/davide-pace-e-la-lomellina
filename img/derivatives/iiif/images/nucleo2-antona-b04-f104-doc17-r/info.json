@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  3318,
+    "height":  2102,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  158
+                  },
+                  {
+                      "width":  1140,
+                      "height":  722
+                  },
+                  {
+                      "width":  3318,
+                      "height":  2102
+                  },
+                  {
+                      "width":  3318,
+                      "height":  2102
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

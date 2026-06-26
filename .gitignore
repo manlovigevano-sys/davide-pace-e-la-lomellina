@@ -1,15 +1,24 @@
 # jekyll things
-_site
-.sass-cache
+_site/
+.sass-cache/
 .jekyll-metadata
-.jekyll-cache
+.jekyll-cache/
+outputs/
+.local-iiif-archive/
+.local-server-root/
+.local-backups/
 
 # system things
 .DS_Store
 .idea/
 
 # ruby things
+.bundle/
+vendor/
 Gemfile.lock
 
+# node things
+node_modules/
+
 # wax things
-wax_tasks
+wax_tasks/

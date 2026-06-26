@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/carta-repetto-gropello.json' | absolute_url }}",
+  "label": "Carta archeologica del territorio di Gropello Cairoli",
+  "width": 1140,
+  "height": 802,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/250,/0/default.jpg' | absolute_url }}",
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/carta-repetto-gropello.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 1140,
+        "height": 802
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/carta-repetto-gropello.json' | absolute_url }}"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-ud001-r' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2506,
+  "height": 1788,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 178
+    },
+    {
+      "width": 1140,
+      "height": 813
+    },
+    {
+      "width": 2506,
+      "height": 1788
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

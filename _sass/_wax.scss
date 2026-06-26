@@ -48,19 +48,30 @@ header & nav bar
 
 #wax-header {
   background-color: $bg-color;
-  border-bottom: 1px solid $text-color;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   font-family: $heading-font;
   color: $text-color;
   z-index: 100000;
-  padding: $margin;
+  padding: 1rem 3rem;
   letter-spacing: 0.075rem;
 
   .navbar-brand {
-    font-weight: 700;
-    color: $accent-light;
-    font-size: 2rem;
-    white-space: normal;
-  }
+  margin-right: 2rem;
+  padding: 0;
+}
+
+.site-logo img {
+  height: 120px !important;
+  width: auto;
+  display: block;
+  mix-blend-mode: multiply;
+  opacity: 0.95;
+  transition: all 0.3s ease;
+}
+
+.site-logo img:hover {
+  opacity: 1;
+}
 
   .navbar-brand:hover {
     color: $accent-dark;

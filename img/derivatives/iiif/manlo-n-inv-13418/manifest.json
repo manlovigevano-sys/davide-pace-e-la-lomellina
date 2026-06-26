@@ -1,0 +1,156 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/manlo-n-inv-13418/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Embrice iscritto, fotografia attuale",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "manlo-n-inv-13418"
+    },
+    {
+      "label": "PID precedente",
+      "value": "nucleo2-embrice-reperto-13418"
+    },
+    {
+      "label": "Titolo",
+      "value": "Embrice iscritto, fotografia attuale"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "image"
+    },
+    {
+      "label": "Creatore",
+      "value": "Documentazione fotografica di progetto"
+    },
+    {
+      "label": "Data",
+      "value": "2026"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Santo Spirito"
+    },
+    {
+      "label": "Repository",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Documentazione fotografica realizzata nel 2026 nell'ambito del progetto, appositamente per la documentazione dei corredi."
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; Santo Spirito; reperti archeologici; iscrizioni; allestimenti museali; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Fotografia attuale dell'embrice iscritto, esposto presso il Museo Archeologico Nazionale della Lomellina, sala 3, vetrina 5. Fotografia realizzata nel 2026 nell'ambito del progetto, appositamente per la documentazione dei corredi."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Comunità locale e tutela"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/comunità-locale/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/nucleo2-embrice-reperto-13418.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-reperto-13418-reperto.json' | absolute_url }}",
+          "label": "Embrice iscritto, fotografia attuale",
+          "width": 4000,
+          "height": 4000,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Embrice iscritto, fotografia attuale"
+            },
+            {
+              "label": "Tipologia",
+              "value": "fotografia del reperto"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Museo Archeologico Nazionale della Lomellina"
+            },
+            {
+              "label": "Riferimento",
+              "value": "MANLo, n. inv. 13418"
+            },
+            {
+              "label": "Soggetto",
+              "value": "embrice iscritto; Santo Spirito; Gropello Cairoli; gens Atilia"
+            },
+            {
+              "label": "File sorgente",
+              "value": "13418.png"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-reperto-13418-reperto.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4000,
+                "height": 4000
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-reperto-13418-reperto.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/1140,/0/default.jpg' | absolute_url }}"
+}

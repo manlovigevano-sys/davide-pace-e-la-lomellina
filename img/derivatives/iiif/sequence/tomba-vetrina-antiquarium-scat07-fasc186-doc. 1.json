@@ -1,0 +1,54 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1.json",
+                         "label":  "FDP_SCAT07_FASC186_UD001_ME_R_01.jpg",
+                         "width":  2144,
+                         "height":  3365,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Vetrina storica dell'Antiquarium Lomellinum Antona, scat. 7, fasc. 186, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, scat. 7, fasc. 186, doc. 1"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT07_FASC186_UD001_ME_R_01.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2144,
+                                                             "height":  3365
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc186-doc. 1.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-negativi-positivi-b5-f140-doc3-fot07-pos",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  4535,
+    "height":  3070,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  169
+                  },
+                  {
+                      "width":  1140,
+                      "height":  772
+                  },
+                  {
+                      "width":  4535,
+                      "height":  3070
+                  },
+                  {
+                      "width":  4535,
+                      "height":  3070
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

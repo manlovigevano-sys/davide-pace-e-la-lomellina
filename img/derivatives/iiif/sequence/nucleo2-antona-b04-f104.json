@@ -1,0 +1,290 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo2-antona-b04-f104.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc1-r.json",
+                         "label":  "Attivit? sul campo della Squadra Volante Archeologica Antona, doc. 1",
+                         "width":  3246,
+                         "height":  2065,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc1-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Attivit? sul campo della Squadra Volante Archeologica Antona, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 4, fasc. 104, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F104_UD001_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc1-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc1-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc1-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3246,
+                                                             "height":  2065
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc1-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc2-r.json",
+                         "label":  "Gruppo di collaboratori sul campo, doc. 2",
+                         "width":  3294,
+                         "height":  2099,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc2-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Gruppo di collaboratori sul campo, doc. 2"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 4, fasc. 104, doc. 2"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F104_UD002_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc2-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc2-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc2-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3294,
+                                                             "height":  2099
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc2-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc11-r.json",
+                         "label":  "Collaboratori e volontari sul campo, doc. 11",
+                         "width":  3311,
+                         "height":  2111,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc11-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Collaboratori e volontari sul campo, doc. 11"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 4, fasc. 104, doc. 11"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F104_UD011_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc11-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc11-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc11-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3311,
+                                                             "height":  2111
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc11-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc16-r.json",
+                         "label":  "Gruppo di collaboratori sul campo, doc. 16",
+                         "width":  3259,
+                         "height":  2079,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc16-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Gruppo di collaboratori sul campo, doc. 16"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 4, fasc. 104, doc. 16"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F104_UD016_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc16-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc16-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc16-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3259,
+                                                             "height":  2079
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc16-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc17-r.json",
+                         "label":  "Collaboratori con reperto durante attivit? sul campo, doc. 17",
+                         "width":  3318,
+                         "height":  2102,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Collaboratori con reperto durante attivit? sul campo, doc. 17"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 4, fasc. 104, doc. 17"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F104_UD017_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b04-f104-doc17-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b04-f104-doc17-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3318,
+                                                             "height":  2102
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b04-f104-doc17-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

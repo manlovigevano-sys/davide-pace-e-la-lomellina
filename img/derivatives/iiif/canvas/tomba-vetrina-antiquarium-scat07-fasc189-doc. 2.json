@@ -1,0 +1,47 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2.json",
+    "label":  "FDP_SCAT07_FASC189_UD002_ME_R.jpg",
+    "width":  2448,
+    "height":  1672,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Vetrine storiche con materiali della necropoli, scat. 7, fasc. 189, doc. 2"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, scat. 7, fasc. 189, doc. 2"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_SCAT07_FASC189_UD002_ME_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2448,
+                                        "height":  1672
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-doc. 2.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

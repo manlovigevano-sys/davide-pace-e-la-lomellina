@@ -1,0 +1,63 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json",
+    "label":  "Stampa fotografica dello scavo, doc. 2 recto",
+    "width":  2511,
+    "height":  1811,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Stampa fotografica dello scavo, doc. 2 recto"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "documentazione fotografica di scavo"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 5, fasc. 140, doc. 2 recto"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "27 gennaio 1961"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B05_F140_UD002_ME_R_01.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2511,
+                                        "height":  1811
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,63 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-r.json",
+    "label":  "Documentazione manoscritta e grafica, doc. 13 recto",
+    "width":  2128,
+    "height":  2685,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Documentazione manoscritta e grafica, doc. 13 recto"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "giornale di scavo, annotazioni tecniche e disegni dei reperti"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 5, fasc. 140, doc. 13 recto"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "27 gennaio 1961"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B05_F140_UD013_ME_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-manoscritti-b5-f140-doc13-r.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc13-r",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2128,
+                                        "height":  2685
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-manoscritti-b5-f140-doc13-r.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

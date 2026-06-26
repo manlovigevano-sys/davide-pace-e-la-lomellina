@@ -1,0 +1,47 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-balsamario-archivio-b06-f146-doc. 2.json",
+    "label":  "FDP_B06_F146_UD002_ME_R.jpg",
+    "width":  3384,
+    "height":  2147,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-archivio-b06-f146-doc. 2/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Balsamario vitreo a forma di colomba, b. 6, fasc. 146, doc. 2"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 2"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B06_F146_UD002_ME_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-balsamario-archivio-b06-f146-doc. 2.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-archivio-b06-f146-doc. 2/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-archivio-b06-f146-doc. 2",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  3384,
+                                        "height":  2147
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-balsamario-archivio-b06-f146-doc. 2.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

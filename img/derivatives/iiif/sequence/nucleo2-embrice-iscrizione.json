@@ -1,0 +1,290 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/img/derivatives/iiif/sequence/nucleo2-embrice-iscrizione.json' | absolute_url }}",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-neg.json' | absolute_url }}",
+      "label": "Negativo con iscrizione sull'embrice",
+      "width": 4310,
+      "height": 1979,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-neg/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Negativo con iscrizione sull'embrice"
+        },
+        {
+          "label": "Tipologia",
+          "value": "negativo fotografico digitalizzato"
+        },
+        {
+          "label": "Archivio / istituto",
+          "value": "Archivio Davide Pace"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, b. 2, fasc. 35, doc. 8"
+        },
+        {
+          "label": "Soggetto",
+          "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_B02_F035_UD008_ME.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-ud008-neg.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-neg/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-neg' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4310,
+            "height": 1979
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-neg.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01.json' | absolute_url }}",
+      "label": "Dettaglio fotografico dell'iscrizione",
+      "width": 4533,
+      "height": 3033,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Dettaglio fotografico dell'iscrizione"
+        },
+        {
+          "label": "Tipologia",
+          "value": "documentazione fotografica"
+        },
+        {
+          "label": "Archivio / istituto",
+          "value": "Archivio Davide Pace"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, b. 2, fasc. 35, doc. 8, fot. 1"
+        },
+        {
+          "label": "Soggetto",
+          "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_B02_F035_UD008_ME_FOT01.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-ud008-fot01.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4533,
+            "height": 3033
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+      "label": "Negativo trasformato in positivo",
+      "width": 4533,
+      "height": 3033,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Negativo trasformato in positivo"
+        },
+        {
+          "label": "Tipologia",
+          "value": "positivo digitale da negativo"
+        },
+        {
+          "label": "Archivio / istituto",
+          "value": "Archivio Davide Pace"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, b. 2, fasc. 35, doc. 8, fot. 1 positivo"
+        },
+        {
+          "label": "Soggetto",
+          "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_B02_F035_UD008_ME_FOT01_POS.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 4533,
+            "height": 3033
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+      "label": "Dettaglio dell'iscrizione, fotografia storica",
+      "width": 2506,
+      "height": 1788,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Dettaglio dell'iscrizione, fotografia storica"
+        },
+        {
+          "label": "Tipologia",
+          "value": "documentazione fotografica"
+        },
+        {
+          "label": "Archivio / istituto",
+          "value": "Archivio Davide Pace"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, scat. 8, fasc. 192, doc. 1"
+        },
+        {
+          "label": "Soggetto",
+          "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_SCAT08_FASC192_UD001_ME_R_04.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2506,
+            "height": 1788
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    },
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-v.json' | absolute_url }}",
+      "label": "Verso con annotazione Atilius",
+      "width": 2557,
+      "height": 1820,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-v/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Verso con annotazione Atilius"
+        },
+        {
+          "label": "Tipologia",
+          "value": "verso fotografico con annotazione"
+        },
+        {
+          "label": "Archivio / istituto",
+          "value": "Archivio Davide Pace"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, scat. 8, fasc. 192, doc. 1 verso"
+        },
+        {
+          "label": "Soggetto",
+          "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_SCAT08_FASC192_UD001_ME_V.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-scat08-ud001-v.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-v/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-v' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2557,
+            "height": 1820
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-v.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-dettaglio-dettaglio-iscrizione",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2000,
+    "height":  2000,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  250
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1140
+                  },
+                  {
+                      "width":  2000,
+                      "height":  2000
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

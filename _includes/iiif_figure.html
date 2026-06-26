@@ -1,0 +1,85 @@
+<figure class="{{ include.figure_class | default: 'archive-document' }}">
+  {% assign viewer_id = include.viewer_id | default: include.manifest | slugify | prepend: 'iiif-figure-' %}
+  {% assign manifest_slug = include.manifest | remove: '/manifest.json' | split: '/' | last %}
+  {% assign collection_item = site.pace | where: 'pid', manifest_slug | first %}
+  {% unless collection_item %}
+    {% assign collection_item = site.pace | where: 'original_pid', manifest_slug | first %}
+  {% endunless %}
+  {% unless collection_item %}
+    {% assign collection_item = site.pace | where: 'manifest', include.manifest | first %}
+  {% endunless %}
+  {% assign caption_href = include.href | default: collection_item.url %}
+  {% assign has_collection_link = include.href %}
+  {% if collection_item %}
+    {% assign has_collection_link = true %}
+  {% endif %}
+  <div class="iiif-figure-frame">
+    <div id="{{ viewer_id }}" class="iiif-figure-viewer iiif-static-preview image-viewer" role="img" aria-label="{{ include.alt | escape }}" data-iiif-manifest="{{ include.manifest | relative_url }}">
+      {% if has_collection_link %}
+        <a class="iiif-static-preview-link" href="{{ caption_href | relative_url }}" aria-label="Consulta la scheda della collezione">
+          <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy">
+        </a>
+      {% else %}
+        <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" loading="lazy">
+      {% endif %}
+    </div>
+    <script>
+      $(document).ready(function () {
+        var $frame = $("#{{ viewer_id }}");
+        var manifestUrl = $frame.data("iiif-manifest");
+        var $img = $frame.find("img").first();
+        $.getJSON(manifestUrl, function(data) {
+          var canvases = data.sequences && data.sequences[0] && data.sequences[0].canvases ? data.sequences[0].canvases : [];
+          if (canvases.length < 2) {
+            return;
+          }
+          var previews = $.map(canvases, function(canvas) {
+            var src = canvas.thumbnail;
+            if (canvas.images && canvas.images[0] && canvas.images[0].resource && canvas.images[0].resource.service) {
+              src = canvas.images[0].resource.service['@id'] + '/full/1140,/0/default.jpg';
+            }
+            return {
+              src: src,
+              alt: canvas.label || data.label || $img.attr("alt") || ""
+            };
+          });
+          var current = 0;
+          var $controls = $('<div class="iiif-static-controls" aria-label="Sfoglia le immagini"></div>');
+          var $prev = $('<button type="button" class="iiif-static-control" aria-label="Immagine precedente">‹</button>');
+          var $next = $('<button type="button" class="iiif-static-control" aria-label="Immagine successiva">›</button>');
+          var $count = $('<span class="iiif-static-count" aria-live="polite"></span>');
+          var render = function() {
+            $img.attr({ src: previews[current].src, alt: previews[current].alt });
+            $count.text((current + 1) + ' / ' + previews.length);
+          };
+          $prev.on("click", function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            current = (current + previews.length - 1) % previews.length;
+            render();
+          });
+          $next.on("click", function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            current = (current + 1) % previews.length;
+            render();
+          });
+          $controls.append($prev, $count, $next);
+          $frame.append($controls);
+          render();
+        });
+      });
+    </script>
+    <figcaption>
+      {% if include.reference %}
+        <span class="figure-caption-reference">{{ include.reference }}</span>
+      {% endif %}
+      <span class="figure-caption-text">{{ include.caption }}</span>
+      <span class="figure-caption-actions">
+        {% if has_collection_link %}
+        <a class="figure-caption-action" href="{{ caption_href | relative_url }}">Consulta la scheda della collezione</a>
+      {% endif %}
+      </span>
+    </figcaption>
+  </div>
+</figure>

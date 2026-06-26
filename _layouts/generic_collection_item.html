@@ -2,33 +2,46 @@
 layout: default
 ---
 
-{% comment %}
-  The block below controls the image viewer
-{% endcomment %}
-
-<h3 alt="{{ page.label | escape }}" class='item-label'>{{ page.label }}</h3>
-  <div class='item-view'>
-    <span class='pagination-link' id='prevlink'></span>
-
-    {% if page.manifest.size > 0 %}
-      {% include osd_iiif_image_viewer.html manifest=page.manifest %}
-    {% elsif page.full.size > 0 %}
-      {% include simple_image_viewer.html full_image=page.full %}
+<article class="collection-item-page">
+  <header class="collection-item-header">
+    <p class="collection-item-kicker">{{ page.collection | default: 'collezione' }}</p>
+    <h1 alt="{{ page.label | escape }}" class="item-label">{{ page.label }}</h1>
+    {% if page.summary %}
+      <p class="collection-item-summary">{{ page.summary }}</p>
     {% endif %}
-    
-    <span class='pagination-link' id='nextlink'></span>
-  </div>
-  {% unless layout.pagination == false %}{% include item_pagination.html %}{% endunless %}
+  </header>
 
-{% comment %}
-  The block below controls the item metadata table
-{% endcomment %}
+  <section class="collection-item-body">
+    <div class="item-view">
+      <span class="pagination-link" id="prevlink"></span>
 
-{% if layout.meta.size %}
-  {% assign metadata = layout.meta %}
-{% elsif page.meta.size %}
-  {% assign metadata = page.meta %}
-{% endif %}
-{% if metadata.size %}
-  {% include item_metadata.html meta=metadata %}
-{% endif %}
+      {% unless layout.iiif_ready == false %}
+        {% assign iiif_ready = true %}
+      {% endunless %}
+
+      {% if page.manifest.size > 0 and iiif_ready %}
+        {% include osd_iiif_image_viewer.html manifest=page.manifest mode='viewer' %}
+      {% elsif page.full.size > 0 %}
+        {% include simple_image_viewer.html full_image=page.full %}
+      {% else %}
+        <p class="item-viewer-note">Immagine non disponibile per questa scheda.</p>
+      {% endif %}
+
+      <span class="pagination-link" id="nextlink"></span>
+    </div>
+    {% unless layout.pagination == false %}{% include item_pagination.html %}{% endunless %}
+  </section>
+
+  {% if layout.meta.size %}
+    {% assign metadata = layout.meta %}
+  {% elsif page.meta.size %}
+    {% assign metadata = page.meta %}
+  {% endif %}
+
+  {% if metadata.size %}
+    <section class="collection-metadata-panel" aria-label="Metadati della scheda">
+      <h2>Metadati</h2>
+      {% include item_metadata.html meta=metadata %}
+    </section>
+  {% endif %}
+</article>

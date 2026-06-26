@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang='en-us'>
+<html lang='it'>
   {% include head.html %}
 
   <body>
@@ -18,7 +18,8 @@
     </div>
 
     {% include footer.html %}
-    <script type='text/javascript' async defer src='{{ "/assets/bootstrap/bootstrap.min.js" | absolute_url }}'></script>
-    <script type='text/javascript' async defer src='{{ "/assets/popper.min.js" | absolute_url }}'></script>
+    <script type='text/javascript' defer src='{{ "/assets/popper.min.js" | relative_url }}'></script>
+    <script type='text/javascript' defer src='{{ "/assets/bootstrap/bootstrap.min.js" | relative_url }}'></script>
+    <script type='text/javascript' defer src='{{ "/assets/text-enhancements.js" | relative_url }}'></script>
   </body>
 </html>

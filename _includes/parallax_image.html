@@ -2,6 +2,9 @@
   {% assign image = include.image %}
 {% else %}
   {% assign item  = site[include.collection] | where: 'pid', include.pid | first %}
+  {% unless item %}
+    {% assign item = site[include.collection] | where: 'original_pid', include.pid | first %}
+  {% endunless %}
   {% assign image = item.full %}
 {% endif %}
 

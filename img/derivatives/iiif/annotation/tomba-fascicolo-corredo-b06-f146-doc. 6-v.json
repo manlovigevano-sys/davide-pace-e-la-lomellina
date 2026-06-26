@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+    "@type":  "oa:Annotation",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 6-v.json",
+    "motivation":  "sc:painting",
+    "resource":  {
+                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-v/full/full/0/default.jpg",
+                     "@type":  "dcterms:Image",
+                     "format":  "image/jpeg",
+                     "service":  {
+                                     "@context":  "http://iiif.io/api/image/2/context.json",
+                                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-v",
+                                     "profile":  "http://iiif.io/api/image/2/level0.json"
+                                 },
+                     "width":  2138,
+                     "height":  2692
+                 },
+    "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 6-v.json",
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

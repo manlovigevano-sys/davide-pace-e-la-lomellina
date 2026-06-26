@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-ud014-r' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2130,
+  "height": 2697,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 317
+    },
+    {
+      "width": 1140,
+      "height": 1443
+    },
+    {
+      "width": 2130,
+      "height": 2697
+    },
+    {
+      "width": 2130,
+      "height": 2697
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

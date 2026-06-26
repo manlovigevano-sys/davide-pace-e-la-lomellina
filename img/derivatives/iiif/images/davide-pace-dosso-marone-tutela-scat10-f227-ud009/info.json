@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/davide-pace-dosso-marone-tutela-scat10-f227-ud009' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2501,
+  "height": 1790,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 179
+    },
+    {
+      "width": 1140,
+      "height": 816
+    },
+    {
+      "width": 2501,
+      "height": 1790
+    },
+    {
+      "width": 2501,
+      "height": 1790
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

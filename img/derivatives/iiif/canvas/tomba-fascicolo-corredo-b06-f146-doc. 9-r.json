@@ -1,0 +1,47 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+    "label":  "doc. 9 recto",
+    "width":  2138,
+    "height":  2689,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 9 recto"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B06_F146_UD009_R_ME.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2138,
+                                        "height":  2689
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

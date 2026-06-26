@@ -1,0 +1,66 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo2-embrice-reperto-13418.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-reperto-13418-reperto.json",
+                         "label":  "Embrice iscritto, fotografia attuale",
+                         "width":  4000,
+                         "height":  4000,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Embrice iscritto, fotografia attuale"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "fotografia del reperto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Museo Archeologico Nazionale della Lomellina"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "MANLo, n. inv. 13418"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "embrice iscritto; Santo Spirito; Gropello Cairoli; gens Atilia"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "13418.png"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-reperto-13418-reperto.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-reperto",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  4000,
+                                                             "height":  4000
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-reperto-13418-reperto.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,234 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo2-embrice-fasc192-fotografie.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r.json",
+                         "label":  "Dettaglio dell'iscrizione, fotografia storica",
+                         "width":  2506,
+                         "height":  1788,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Dettaglio dell'iscrizione, fotografia storica"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, scat. 8, fasc. 192, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "iscrizione; ATILIVS; documentazione fotografica; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT08_FASC192_UD001_ME_R_04.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2506,
+                                                             "height":  1788
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v.json",
+                         "label":  "Verso con annotazione Atilius",
+                         "width":  2557,
+                         "height":  1820,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Verso con annotazione Atilius"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "verso fotografico con annotazione"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, scat. 8, fasc. 192, doc. 1 verso"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "iscrizione; ATILIVS; documentazione fotografica; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT08_FASC192_UD001_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2557,
+                                                             "height":  1820
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 1-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r.json",
+                         "label":  "Fotografia del luogo del rinvenimento",
+                         "width":  2528,
+                         "height":  1780,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fotografia del luogo del rinvenimento"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, scat. 8, fasc. 192, doc. 2 recto"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "iscrizione; ATILIVS; documentazione fotografica; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT08_FASC192_UD002_ME_R_03.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2528,
+                                                             "height":  1780
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v.json",
+                         "label":  "Verso con annotazioni sul promontorio di Santo Spirito",
+                         "width":  2530,
+                         "height":  1769,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Verso con annotazioni sul promontorio di Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "verso fotografico con annotazioni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, scat. 8, fasc. 192, doc. 2 verso"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "iscrizione; ATILIVS; documentazione fotografica; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT08_FASC192_UD002_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2530,
+                                                             "height":  1769
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-doc. 2-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

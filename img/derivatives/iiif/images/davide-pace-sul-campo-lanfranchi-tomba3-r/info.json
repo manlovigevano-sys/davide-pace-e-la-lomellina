@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  3533,
+    "height":  2488,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  176
+                  },
+                  {
+                      "width":  1140,
+                      "height":  803
+                  },
+                  {
+                      "width":  3533,
+                      "height":  2488
+                  },
+                  {
+                      "width":  3533,
+                      "height":  2488
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

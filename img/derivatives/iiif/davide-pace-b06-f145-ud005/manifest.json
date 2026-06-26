@@ -1,0 +1,152 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b06-f145-ud005/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Schizzo della disposizione del corredo della Tomba dell'abbraccio",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b06-f145-ud005"
+    },
+    {
+      "label": "PID precedente",
+      "value": "tomba-schizzo-deposizione-b06-f145-ud005"
+    },
+    {
+      "label": "Titolo",
+      "value": "Schizzo della disposizione del corredo della Tomba dell'abbraccio"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "documentazione grafica"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "image"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "1955"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Frascate, vigna Garaldi"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 6, fasc. 145, doc. 5"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Frascate; necropoli; corredo funerario; rilievi archeologici; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Disegno abbozzato del corredo della Tomba dell'abbraccio, conservato nel fascicolo b. 6, fasc. 145; lo schizzo restituisce la disposizione dei reperti all'interno della sepoltura e supporta la ricostruzione del contesto di deposizione."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "La tomba dell'abbraccio"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/tomba-abbraccio/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/tomba-schizzo-deposizione-b06-f145-ud005.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-schizzo-deposizione-b06-f145-ud005.json' | absolute_url }}",
+          "label": "Schizzo",
+          "width": 2140,
+          "height": 2679,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Schizzo della disposizione del corredo della Tomba dell'abbraccio"
+            },
+            {
+              "label": "Tipologia",
+              "value": "schizzo manoscritto"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 145, doc. 5"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F145_UD005_MASTER_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-schizzo-deposizione-b06-f145-ud005.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2140,
+                "height": 2679
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-schizzo-deposizione-b06-f145-ud005.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/tomba-schizzo-deposizione-b06-f145-ud005/full/1140,/0/default.jpg' | absolute_url }}"
+}

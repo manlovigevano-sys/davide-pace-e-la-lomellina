@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+    "label":  "Schizzo topografico della vigna, verso",
+    "width":  7865,
+    "height":  5274,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Schizzo topografico della vigna, verso"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "schizzo topografico manoscritto"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 2, fasc. 35, doc. 10 verso"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B02_F035_UD010_ME_V.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  7865,
+                                        "height":  5274
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

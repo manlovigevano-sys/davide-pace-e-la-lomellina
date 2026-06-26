@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-ud004-v' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2134,
+  "height": 2705,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 317
+    },
+    {
+      "width": 1140,
+      "height": 1445
+    },
+    {
+      "width": 2134,
+      "height": 2705
+    },
+    {
+      "width": 2134,
+      "height": 2705
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

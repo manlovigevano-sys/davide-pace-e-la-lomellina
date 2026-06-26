@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v.json",
+    "label":  "Verso con annotazioni sul promontorio di Santo Spirito",
+    "width":  2530,
+    "height":  1769,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Verso con annotazioni sul promontorio di Santo Spirito"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "verso fotografico con annotazioni"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, scat. 8, fasc. 192, doc. 2 verso"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Santo Spirito; documentazione fotografica; iscrizione ATILIVS"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_SCAT08_FASC192_UD002_ME_V.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2530,
+                                        "height":  1769
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-doc2-scat08-doc. 2-v.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

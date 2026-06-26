@@ -1,0 +1,364 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b06-f148/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b06-f148"
+    },
+    {
+      "label": "PID precedente",
+      "value": "tomba-relazione-pace-b06-f148"
+    },
+    {
+      "label": "Titolo",
+      "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "relazione dattiloscritta"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "1955"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Frascate, vigna Garaldi"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 6, fasc. 148"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "6 immagini digitali"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Frascate; scavi archeologici; necropoli; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Relazione retrospettiva dattiloscritta di Davide Pace, scavi e rinvenimenti presso vigna Garaldi, località Frascate. Fondo Pace, Davide, b. 6, fasc. 148, doc. 1-6, 26/04/1957."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "La tomba dell'abbraccio"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/tomba-abbraccio/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/tomba-relazione-pace-b06-f148.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud001.json' | absolute_url }}",
+          "label": "doc. 1",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 1"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD001_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud001.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud001.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud002.json' | absolute_url }}",
+          "label": "doc. 2",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud002/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 2"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD002_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud002.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud002/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud002' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud002.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud003.json' | absolute_url }}",
+          "label": "doc. 3",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud003/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 3"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD003_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud003.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud003/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud003' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud003.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud004.json' | absolute_url }}",
+          "label": "doc. 4",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud004/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 4"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD004_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud004.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud004/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud004' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud004.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud005.json' | absolute_url }}",
+          "label": "doc. 5",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud005/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 5"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD005_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud005.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud005/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud005' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud005.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud006.json' | absolute_url }}",
+          "label": "doc. 6",
+          "width": 5100,
+          "height": 6600,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 148, doc. 6"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F148_UD006_R_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud006.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 5100,
+                "height": 6600
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud006.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud001/full/1140,/0/default.jpg' | absolute_url }}"
+}

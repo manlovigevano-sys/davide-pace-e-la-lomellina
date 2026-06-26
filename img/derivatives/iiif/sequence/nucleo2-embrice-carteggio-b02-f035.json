@@ -1,0 +1,234 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo2-embrice-carteggio-b02-f035.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 9-r.json",
+                         "label":  "Lettera di Davide Pace alla Soprintendenza, recto",
+                         "width":  5440,
+                         "height":  6799,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Lettera di Davide Pace alla Soprintendenza, recto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "carteggio dattiloscritto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 9 recto"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD009_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-doc. 9-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5440,
+                                                             "height":  6799
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 9-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 9-v.json",
+                         "label":  "Lettera di Davide Pace alla Soprintendenza, verso",
+                         "width":  5452,
+                         "height":  6847,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Lettera di Davide Pace alla Soprintendenza, verso"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "carteggio dattiloscritto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 9 verso"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD009_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-doc. 9-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 9-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5452,
+                                                             "height":  6847
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 9-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-r.json",
+                         "label":  "Appunti manoscritti sul rinvenimento, recto",
+                         "width":  5316,
+                         "height":  7899,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Appunti manoscritti sul rinvenimento, recto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "appunto manoscritto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 10 recto"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD010_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-doc. 10-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5316,
+                                                             "height":  7899
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+                         "label":  "Schizzo topografico della vigna, verso",
+                         "width":  7865,
+                         "height":  5274,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Schizzo topografico della vigna, verso"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "schizzo topografico manoscritto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 10 verso"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD010_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-doc. 10-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  7865,
+                                                             "height":  5274
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-doc. 10-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

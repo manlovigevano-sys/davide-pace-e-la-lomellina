@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-ud009-v.json' | absolute_url }}",
+  "label": "Lettera di Davide Pace alla Soprintendenza, verso",
+  "width": 5452,
+  "height": 6847,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud009-v/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Lettera di Davide Pace alla Soprintendenza, verso"
+    },
+    {
+      "label": "Tipologia",
+      "value": "carteggio dattiloscritto"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, b. 2, fasc. 35, doc. 9 verso"
+    },
+    {
+      "label": "Soggetto",
+      "value": "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_B02_F035_UD009_ME_V.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-ud009-v.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud009-v/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud009-v' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 5452,
+        "height": 6847
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-ud009-v.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

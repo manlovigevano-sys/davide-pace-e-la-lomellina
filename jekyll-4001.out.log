@@ -1,0 +1,130 @@
+Configuration file: C:/Users/grazi_cthx1it/web-projects/archivio_pace-digital-exhibition/_config.yml
+Configuration file: C:/Users/grazi_cthx1it/web-projects/archivio_pace-digital-exhibition/_config_local.yml
+            Source: C:/Users/grazi_cthx1it/web-projects/archivio_pace-digital-exhibition
+       Destination: C:/Users/grazi_cthx1it/web-projects/archivio_pace-digital-exhibition/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 58.92 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+    Server address: http://127.0.0.1:4001/archivio_pace-digital-exhibition/
+  Server running... press ctrl-c to stop.
+[2026-06-23 16:58:48] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 19:05:14] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 19:08:03] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 19:08:03] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 19:08:03] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 19:56:14] ERROR '/favicon.ico' not found.
+[2026-06-23 20:03:34] ERROR Errno::ECONNRESET: An existing connection was forcibly closed by the remote host. @ io_fillbuf - fd:6 
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `eof?'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:82:in `run'
+	C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:309:in `block in start_thread'
+[2026-06-23 22:21:03] ERROR '/favicon.ico' not found.
+[2026-06-24 00:17:20] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-patera-15685/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:20] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:20] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13303/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-unguentario-13304/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-patera-15685/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:21] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:22] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-patera-15685/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13303/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-unguentario-13304/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:35] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-specchio-13312/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-full/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-documentazione-attuale/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-balsamario-13305/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-lucerna-13313/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13311/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13308/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13300/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:17:36] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-render-3d/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-unguentario-13304/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-documentazione-attuale/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-render-3d/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-patera-15685/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-balsamario-13305/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13303/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13311/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:44] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-lucerna-13313/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13300/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13308/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-specchio-13312/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-full/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:45] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-full/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-patera-15685/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13303/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-unguentario-13304/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-full/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-manoscritto-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-full/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-statuetta-6884/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-documentazione-attuale/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:49] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-02/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-specchio-13312/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-balsamario-13305/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-archivio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-coppa-13311/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-dettaglio-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-lucerna-13313/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13308/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-foto-storica-01/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-render-3d/full/250,/0/default.jpg' not found.
+[2026-06-24 00:25:50] ERROR '/archivio_pace-digital-exhibition/img/derivatives/iiif/images/tomba-olpe-13300/full/250,/0/default.jpg' not found.

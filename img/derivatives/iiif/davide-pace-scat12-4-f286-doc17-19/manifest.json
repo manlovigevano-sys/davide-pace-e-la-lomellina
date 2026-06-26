@@ -1,0 +1,228 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-scat12-4-f286-doc17-19/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, 27 marzo 1959",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-scat12-4-f286-doc17-19"
+    },
+    {
+      "label": "PID precedente",
+      "value": "davide-pace-passerini-scat12-4-fasc286-doc17-19"
+    },
+    {
+      "label": "Titolo",
+      "value": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, 27 marzo 1959"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "image"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "27 marzo 1959"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), podere Passerini"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, scat. 13.4, fasc. 286"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "2 immagini digitali"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; podere Passerini; scavi archeologici; fornaci romane; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, 27 marzo 1959. Riprese di Davide Pace nell'area di scavo della fornace romana."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Dal territorio al museo"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/pages/territorio-museo/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/davide-pace-passerini-scat12-4-fasc286-doc17-19.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17.json' | absolute_url }}",
+          "label": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, doc. 17",
+          "width": 4944,
+          "height": 3441,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, doc. 17"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Archivio Davide Pace, scat. 13.4, fasc. 286, doc. 17"
+            },
+            {
+              "label": "Luogo",
+              "value": "Podere Passerini, Gropello Cairoli"
+            },
+            {
+              "label": "Data",
+              "value": "27 marzo 1959"
+            },
+            {
+              "label": "Soggetto",
+              "value": "Davide Pace; area di scavo; fornace romana; podere Passerini; Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "pace-passerini-scat12-4-fasc286-doc17.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4944,
+                "height": 3441
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19.json' | absolute_url }}",
+          "label": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, doc. 19",
+          "width": 4947,
+          "height": 3437,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Gropello Cairoli, podere Passerini. Fornace romana. Documentazione fotografica, doc. 19"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Archivio Davide Pace, scat. 13.4, fasc. 286, doc. 19"
+            },
+            {
+              "label": "Luogo",
+              "value": "Podere Passerini, Gropello Cairoli"
+            },
+            {
+              "label": "Data",
+              "value": "27 marzo 1959"
+            },
+            {
+              "label": "Soggetto",
+              "value": "Davide Pace; area di scavo; fornace romana; podere Passerini; Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "pace-passerini-scat12-4-fasc286-doc19.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4947,
+                "height": 3437
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc19.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/davide-pace-passerini-scat12-4-fasc286-doc17-19-doc17/full/1140,/0/default.jpg' | absolute_url }}"
+}

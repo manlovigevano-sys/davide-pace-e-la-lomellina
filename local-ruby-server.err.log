@@ -1,0 +1,17 @@
+[2026-06-25 16:13:00] INFO  WEBrick 1.9.2
+[2026-06-25 16:13:00] INFO  ruby 3.3.11 (2026-03-26) [x64-mingw-ucrt]
+C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:205:in `bind': Permission denied - bind(2) for 127.0.0.1:4000 (Errno::EACCES)
+	from C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:205:in `listen'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:770:in `block in tcp_server_sockets'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:231:in `each'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:231:in `foreach'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/socket.rb:768:in `tcp_server_sockets'
+	from C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/utils.rb:60:in `create_listeners'
+	from C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:130:in `listen'
+	from C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/server.rb:111:in `initialize'
+	from C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:47:in `initialize'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/un.rb:366:in `new'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/un.rb:366:in `block in httpd'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/un.rb:71:in `setup'
+	from C:/Ruby33-x64/lib/ruby/3.3.0/un.rb:326:in `httpd'
+	from -e:1:in `<main>'

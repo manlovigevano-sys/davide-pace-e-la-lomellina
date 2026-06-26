@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud007",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2212,
+    "height":  2757,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  312
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1421
+                  },
+                  {
+                      "width":  2212,
+                      "height":  2757
+                  },
+                  {
+                      "width":  2212,
+                      "height":  2757
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

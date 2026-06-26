@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b03-f067-doc5-r.json",
+    "label":  "Documentazione della Squadra Volante Archeologica Antona, doc. 5",
+    "width":  2439,
+    "height":  1692,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b03-f067-doc5-r/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Documentazione della Squadra Volante Archeologica Antona, doc. 5"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "documentazione fotografica"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 3, fasc. 67, doc. 5"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Squadra Volante Archeologica Antona; attivit? sul campo; comunit? locale"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B03_F067_UD005_ME_R_1.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-antona-b03-f067-doc5-r.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b03-f067-doc5-r/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-antona-b03-f067-doc5-r",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2439,
+                                        "height":  1692
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-antona-b03-f067-doc5-r.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

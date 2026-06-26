@@ -1,0 +1,20 @@
+{% assign items = site[include.collection] | where: 'pid', include.pid %}
+{% if items.size == 0 %}
+  {% assign items = site[include.collection] | where: 'original_pid', include.pid %}
+{% endif %}
+{% assign item = items | first %}
+{% if item %}
+  {% assign card_image = item.thumbnail | default: item.full %}
+  {% assign card_image_file = site.static_files | where: 'path', card_image | first %}
+  {% unless card_image_file %}
+    {% assign card_image = site.default_thumb %}
+  {% endunless %}
+  <article class='reperto-card{% if include.featured %} reperto-card-featured{% endif %}'>
+    <a href='{{ item.url | relative_url }}' aria-label='Apri la scheda: {{ item.label | escape }}'>
+      <img src='{{ card_image | relative_url }}' alt='{{ include.alt | default: item.label | escape }}'>
+      <h3>{{ include.title | default: item.label }}</h3>
+    </a>
+    <p>{{ include.description }}</p>
+    <span>{{ include.meta }}</span>
+  </article>
+{% endif %}

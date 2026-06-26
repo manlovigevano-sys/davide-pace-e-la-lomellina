@@ -1,0 +1,62 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/tomba-schizzo-contesto.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-schizzo-contesto.json",
+                         "label":  "Schizzo",
+                         "width":  2140,
+                         "height":  2679,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-schizzo-contesto/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Schizzo della disposizione del corredo della Tomba dell'abbraccio"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "schizzo manoscritto"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 145, doc. 5"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F145_UD005_MASTER_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-schizzo-contesto.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-schizzo-contesto/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-schizzo-contesto",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2140,
+                                                             "height":  2679
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-schizzo-contesto.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

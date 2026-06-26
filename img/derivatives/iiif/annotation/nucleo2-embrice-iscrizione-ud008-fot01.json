@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-ud008-fot01.json' | absolute_url }}",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01/full/full/0/default.jpg' | absolute_url }}",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01' | absolute_url }}",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 4533,
+    "height": 3033
+  },
+  "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01.json' | absolute_url }}",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

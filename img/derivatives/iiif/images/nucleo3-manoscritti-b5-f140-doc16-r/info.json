@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-manoscritti-b5-f140-doc16-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2126,
+    "height":  2662,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  313
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1427
+                  },
+                  {
+                      "width":  2126,
+                      "height":  2662
+                  },
+                  {
+                      "width":  2126,
+                      "height":  2662
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

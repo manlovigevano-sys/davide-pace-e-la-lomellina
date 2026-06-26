@@ -1,0 +1,144 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b06-f146-ud003/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Fotografia della statuetta dell'abbraccio, b. 6, fasc. 146, doc. 3",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b06-f146-ud003"
+    },
+    {
+      "label": "PID precedente",
+      "value": "tomba-statuetta-b06-f146-ud003"
+    },
+    {
+      "label": "Titolo",
+      "value": "Fotografia della statuetta dell'abbraccio, b. 6, fasc. 146, doc. 3"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "image"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "1955"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Frascate, vigna Garaldi"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 6, fasc. 146, doc. 3"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Frascate; necropoli; corredo funerario; reperti archeologici; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Ripresa fotografica in bianco e nero della statuetta raffigurante un uomo e una donna abbracciati, Fondo Pace, Davide, b. 6, fasc. 146, doc. 3."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "La tomba dell'abbraccio"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/tomba-abbraccio/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/tomba-statuetta-b06-f146-ud003.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-statuetta-b06-f146-ud003.json' | absolute_url }}",
+          "label": "doc. 3",
+          "width": 2181,
+          "height": 3351,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Fotografia della statuetta dell'abbraccio, b. 6, fasc. 146, doc. 3"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 146, doc. 3"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F146_UD003_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-statuetta-b06-f146-ud003.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2181,
+                "height": 3351
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-statuetta-b06-f146-ud003.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/tomba-statuetta-b06-f146-ud003/full/1140,/0/default.jpg' | absolute_url }}"
+}

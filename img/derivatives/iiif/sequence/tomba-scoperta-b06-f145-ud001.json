@@ -1,0 +1,74 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/tomba-scoperta-b06-f145-ud001.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/tomba-scoperta-b06-f145-ud001.json",
+                         "label":  "doc. 1",
+                         "width":  2215,
+                         "height":  2747,
+                         "thumbnail":  "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Relazione di Davide Pace sulla necropoli di Gropello, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "relazione dattiloscritta"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 145, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "10 dicembre 1955"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Gropello Cairoli, localit? Frascate, vigna Garaldi"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Necropoli di Gropello; ricognizioni, scavi e reperti; Tomba dell'abbraccio"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F145_UD001_MASTER_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/tomba-scoperta-b06-f145-ud001.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2215,
+                                                             "height":  2747
+                                                         },
+                                            "on":  "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/tomba-scoperta-b06-f145-ud001.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

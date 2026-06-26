@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+    "@type":  "oa:Annotation",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09.json",
+    "motivation":  "sc:painting",
+    "resource":  {
+                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09/full/full/0/default.jpg",
+                     "@type":  "dcterms:Image",
+                     "format":  "image/jpeg",
+                     "service":  {
+                                     "@context":  "http://iiif.io/api/image/2/context.json",
+                                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09",
+                                     "profile":  "http://iiif.io/api/image/2/level0.json"
+                                 },
+                     "width":  2129,
+                     "height":  2122
+                 },
+    "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09.json",
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

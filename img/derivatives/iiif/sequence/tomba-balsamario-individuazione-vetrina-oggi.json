@@ -1,0 +1,54 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/tomba-balsamario-individuazione-vetrina-oggi.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-balsamario-individuazione-vetrina-oggi.json",
+                         "label":  "balsamario_foto_vs_oggi_individuazione.jpg",
+                         "width":  8160,
+                         "height":  4592,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-individuazione-vetrina-oggi/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Individuazione del balsamario vitreo a forma di colomba nella vetrina attuale"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Museo archeologico nazionale della Lomellina, documentazione di lavoro"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "balsamario_foto_vs_oggi_individuazione.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-balsamario-individuazione-vetrina-oggi.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-individuazione-vetrina-oggi/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-individuazione-vetrina-oggi",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  8160,
+                                                             "height":  4592
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-balsamario-individuazione-vetrina-oggi.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,47 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-statuetta-individuazione-vetrina-oggi.json",
+    "label":  "statuetta_foto_vs_oggi_individuazione.jpg",
+    "width":  6288,
+    "height":  3534,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-statuetta-individuazione-vetrina-oggi/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Individuazione della statuetta dell'abbraccio nella vetrina attuale"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Museo archeologico nazionale della Lomellina, documentazione di lavoro"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "statuetta_foto_vs_oggi_individuazione.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-statuetta-individuazione-vetrina-oggi.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-statuetta-individuazione-vetrina-oggi/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-statuetta-individuazione-vetrina-oggi",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  6288,
+                                        "height":  3534
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-statuetta-individuazione-vetrina-oggi.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

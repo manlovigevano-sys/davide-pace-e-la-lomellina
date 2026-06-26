@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+  "label": "Dettaglio dell'iscrizione, fotografia storica",
+  "width": 2506,
+  "height": 1788,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Dettaglio dell'iscrizione, fotografia storica"
+    },
+    {
+      "label": "Tipologia",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, scat. 8, fasc. 192, doc. 1"
+    },
+    {
+      "label": "Soggetto",
+      "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_SCAT08_FASC192_UD001_ME_R_04.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-scat08-ud001-r' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2506,
+        "height": 1788
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-scat08-ud001-r.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

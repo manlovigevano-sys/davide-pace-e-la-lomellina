@@ -1,0 +1,176 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-scat08-f202-doc11/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Gropello Cairoli, Santo Spirito. Indagini archeologiche, novembre 1964: fascicolo rosso e frammento fittile",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-scat08-f202-doc11"
+    },
+    {
+      "label": "PID precedente",
+      "value": "davide-pace-rete-documentazione-santo-spirito-doc11"
+    },
+    {
+      "label": "Titolo",
+      "value": "Gropello Cairoli, Santo Spirito. Indagini archeologiche, novembre 1964: fascicolo rosso e frammento fittile"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "fascicolo archivistico"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "novembre 1964"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Santo Spirito"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, scat. 8, fasc. 202, doc. 11"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; Santo Spirito; scavi archeologici; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Gropello Cairoli, Santo Spirito. Indagini archeologiche, novembre 1964. Stampa a colori raffigurante un interno con tavolo, fascicolo rosso e frammento fittile; documenta pratiche di inventariazione e documentazione archivistica."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Comunità locale e tutela"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/comunità-locale/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/davide-pace-rete-documentazione-santo-spirito-doc11.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json' | absolute_url }}",
+          "label": "Santo Spirito. Indagini archeologiche, doc. 11: fascicolo rosso e frammento fittile",
+          "width": 2106,
+          "height": 2132,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Santo Spirito. Indagini archeologiche, doc. 11: fascicolo rosso e frammento fittile"
+            },
+            {
+              "label": "Tipologia",
+              "value": "stampa a colori"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Fondo",
+              "value": "Fondo Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Archivio Davide Pace, scat. 8, fasc. 202, doc. 11"
+            },
+            {
+              "label": "Luogo",
+              "value": "Gropello Cairoli, Santo Spirito"
+            },
+            {
+              "label": "Data",
+              "value": "novembre 1964"
+            },
+            {
+              "label": "Descrizione",
+              "value": "Stampa a colori raffigurante un interno con tavolo, fascicolo rosso e frammento fittile. Pur apparendo non pertinente al contesto dello scavo, documenta materiali e pratiche di inventariazione e documentazione archivistica legate all Archivio Davide Pace."
+            },
+            {
+              "label": "Soggetto",
+              "value": "Archivio Davide Pace; fascicoli archivistici; frammento fittile; inventariazione; documentazione archivistica"
+            },
+            {
+              "label": "Diritti",
+              "value": "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_SCAT08_F202_UD011_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2106,
+                "height": 2132
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/1140,/0/default.jpg' | absolute_url }}"
+}

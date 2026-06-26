@@ -2,14 +2,50 @@
 layout: default
 ---
 
+<article class='exhibit-page{% if page.editorial_exhibit %} editorial-exhibit-page{% endif %}'>
+{% unless page.editorial_exhibit %}
 <div class='exhibit-meta'>
   <h3 class='exhibit-author'>{{ page.author }}</h3>
   <h1 class='exhibit-title'>{{ page.title }}</h1>
-  <p class='exhibit-date' >Published on
-    <time datetime='{{ page.publish_date | date_to_xmlschema }}'>
-    {{ page.publish_date | date: "%A, %B %d, %Y" }}
-    </time>
-  </p>
+  {% if page.subtitle %}
+    <p class='exhibit-subtitle'>{{ page.subtitle }}</p>
+  {% endif %}
+  {% if page.summary %}
+    <p class='exhibit-summary'>{{ page.summary }}</p>
+  {% endif %}
+  {% if page.keywords %}
+    <ul class='exhibit-keywords'>
+      {% for keyword in page.keywords %}
+        <li>{{ keyword }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
+{% endunless %}
 
 {{ content }}
+
+{% if page.sia_url or page.territory_map_url or page.museum_map_url or page.model_3d_url %}
+  <aside class='exhibit-deep-links'>
+    <h2>Approfondisci</h2>
+    <div class='deep-link-grid'>
+      {% if page.sia_url %}
+        {% assign sia_first = page.sia_url | slice: 0 %}
+        <a href='{% if sia_first == "#" %}{{ page.sia_url }}{% else %}{{ page.sia_url | relative_url }}{% endif %}'>Fondo Pace</a>
+      {% endif %}
+      {% if page.territory_map_url %}
+        {% assign territory_first = page.territory_map_url | slice: 0 %}
+        <a href='{% if territory_first == "#" %}{{ page.territory_map_url }}{% else %}{{ page.territory_map_url | relative_url }}{% endif %}'>Mappa del territorio</a>
+      {% endif %}
+      {% if page.museum_map_url %}
+        {% assign museum_first = page.museum_map_url | slice: 0 %}
+        <a href='{% if museum_first == "#" %}{{ page.museum_map_url }}{% else %}{{ page.museum_map_url | relative_url }}{% endif %}'>Mappa del museo</a>
+      {% endif %}
+      {% if page.model_3d_url %}
+        {% assign model_first = page.model_3d_url | slice: 0 %}
+        <a href='{% if model_first == "#" %}{{ page.model_3d_url }}{% else %}{{ page.model_3d_url | relative_url }}{% endif %}'>Modello 3D</a>
+      {% endif %}
+    </div>
+  </aside>
+{% endif %}
+</article>

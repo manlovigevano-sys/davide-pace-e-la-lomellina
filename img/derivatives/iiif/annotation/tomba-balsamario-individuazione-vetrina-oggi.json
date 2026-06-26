@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+    "@type":  "oa:Annotation",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-balsamario-individuazione-vetrina-oggi.json",
+    "motivation":  "sc:painting",
+    "resource":  {
+                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-individuazione-vetrina-oggi/full/full/0/default.jpg",
+                     "@type":  "dcterms:Image",
+                     "format":  "image/jpeg",
+                     "service":  {
+                                     "@context":  "http://iiif.io/api/image/2/context.json",
+                                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-balsamario-individuazione-vetrina-oggi",
+                                     "profile":  "http://iiif.io/api/image/2/level0.json"
+                                 },
+                     "width":  8160,
+                     "height":  4592
+                 },
+    "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-balsamario-individuazione-vetrina-oggi.json",
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

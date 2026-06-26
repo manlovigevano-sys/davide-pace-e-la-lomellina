@@ -1,0 +1,87 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-b01-f004-avventura-gropello-ud002.json",
+    "label":  "Avventura ufficiale nell'antichit? di Gropello. Dal natale dell'indagine al natale del museo, p. 2",
+    "width":  2195,
+    "height":  2759,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud002/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Avventura ufficiale nell'antichit? di Gropello. Dal natale dell'indagine al natale del museo, p. 2"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "relazione dattiloscritta"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Fondo",
+                         "value":  "Fondo Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Archivio Davide Pace, b. 1, fasc. 4, doc. 2"
+                     },
+                     {
+                         "label":  "Autore / mittente",
+                         "value":  "Davide Pace"
+                     },
+                     {
+                         "label":  "Destinatario",
+                         "value":  "destinata alla pubblicazione"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "1955-1956"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Gropello Cairoli"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Avventura ufficiale nell'antichit? di Gropello; prime ricerche archeologiche; Antiquarium di Gropello; Gropello Cairoli"
+                     },
+                     {
+                         "label":  "Lingua",
+                         "value":  "italiano"
+                     },
+                     {
+                         "label":  "Diritti",
+                         "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B01_F004_UD002_ME_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-b01-f004-avventura-gropello-ud002.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud002/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud002",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2195,
+                                        "height":  2759
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-b01-f004-avventura-gropello-ud002.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

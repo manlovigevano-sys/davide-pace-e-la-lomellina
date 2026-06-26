@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-ud002-r.json' | absolute_url }}",
+  "label": "Frammenti dell'embrice nel terreno",
+  "width": 5674,
+  "height": 4282,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-ud002-r/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Frammenti dell'embrice nel terreno"
+    },
+    {
+      "label": "Tipologia",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, b. 2, fasc. 35, doc. 2"
+    },
+    {
+      "label": "Soggetto",
+      "value": "rinvenimento; vigna Carlo Nicola; Santo Spirito; embrice iscritto"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_B02_F035_UD002_ME_R.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-rinvenimento-b02-f035-ud002-r.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-ud002-r/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-ud002-r' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 5674,
+        "height": 4282
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-ud002-r.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

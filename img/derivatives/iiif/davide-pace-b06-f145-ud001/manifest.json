@@ -1,0 +1,164 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/davide-pace-b06-f145-doc. 1/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Relazione di Davide Pace sulla necropoli di Gropello, doc. 1",
+  "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b06-f145-ud001"
+    },
+    {
+      "label": "PID precedente",
+      "value": "tomba-scoperta-b06-f145-ud001"
+    },
+    {
+      "label": "Titolo",
+      "value": "Relazione di Davide Pace sulla necropoli di Gropello, doc. 1"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "relazione dattiloscritta"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "10 dicembre 1955"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Frascate, vigna Garaldi"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 6, fasc. 145, doc. 1"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Frascate; scavi archeologici; necropoli; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Relazione dattiloscritta di Davide Pace relativa al primo rinvenimento presso vigna Garaldi, località Frascate, Fondo Pace, Davide, b. 6, fasc. 145, doc. 1, 10 dicembre 1955."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "La tomba dell'abbraccio"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/tomba-abbraccio/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/sequence/tomba-scoperta-b06-f145-ud001.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/tomba-scoperta-b06-f145-ud001.json",
+          "label": "doc. 1",
+          "width": 2215,
+          "height": 2747,
+          "thumbnail": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/250,/0/default.jpg",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Relazione di Davide Pace sulla necropoli di Gropello, doc. 1"
+            },
+            {
+              "label": "Tipologia",
+              "value": "relazione dattiloscritta"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, Davide, b. 6, fasc. 145, doc. 1"
+            },
+            {
+              "label": "Data",
+              "value": "10 dicembre 1955"
+            },
+            {
+              "label": "Luogo",
+              "value": "Gropello Cairoli, localit? Frascate, vigna Garaldi"
+            },
+            {
+              "label": "Soggetto",
+              "value": "Necropoli di Gropello; ricognizioni, scavi e reperti; Tomba dell'abbraccio"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B06_F145_UD001_MASTER_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/annotation/tomba-scoperta-b06-f145-ud001.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2215,
+                "height": 2747
+              },
+              "on": "{{ '/' | absolute_url }}img/derivatives/iiif/canvas/tomba-scoperta-b06-f145-ud001.json",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/full/0/default.jpg",
+  "fullwidth": "{{ '/' | absolute_url }}img/derivatives/iiif/images/tomba-scoperta-b06-f145-ud001/full/1140,/0/default.jpg"
+}

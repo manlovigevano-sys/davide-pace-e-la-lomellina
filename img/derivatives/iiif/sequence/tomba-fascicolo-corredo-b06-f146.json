@@ -1,0 +1,670 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/tomba-fascicolo-corredo-b06-f146.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 4-r.json",
+                         "label":  "doc. 4 recto",
+                         "width":  2153,
+                         "height":  2702,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 4 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD004_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 4-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2153,
+                                                             "height":  2702
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 4-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 4-v.json",
+                         "label":  "doc. 4 verso",
+                         "width":  2136,
+                         "height":  2673,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 4 verso"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD004_V_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 4-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 4-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2136,
+                                                             "height":  2673
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 4-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 5-r.json",
+                         "label":  "doc. 5 recto",
+                         "width":  2134,
+                         "height":  2681,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 5-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 5 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD005_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 5-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 5-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 5-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2134,
+                                                             "height":  2681
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 5-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 6-r.json",
+                         "label":  "doc. 6 recto",
+                         "width":  2138,
+                         "height":  2683,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 6 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD006_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 6-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2138,
+                                                             "height":  2683
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 6-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 6-v.json",
+                         "label":  "doc. 6 verso",
+                         "width":  2138,
+                         "height":  2692,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 6 verso"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD006_V_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 6-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 6-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2138,
+                                                             "height":  2692
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 6-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 7-r.json",
+                         "label":  "doc. 7 recto",
+                         "width":  2147,
+                         "height":  2692,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 7-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 7 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD007_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 7-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 7-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 7-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2147,
+                                                             "height":  2692
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 7-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 8-r.json",
+                         "label":  "doc. 8 recto",
+                         "width":  2129,
+                         "height":  2683,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 8-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 8 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD008_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 8-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 8-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 8-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2129,
+                                                             "height":  2683
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 8-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+                         "label":  "doc. 9 recto",
+                         "width":  2138,
+                         "height":  2689,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 9 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD009_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 9-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2138,
+                                                             "height":  2689
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 9-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 10-r.json",
+                         "label":  "doc. 10 recto",
+                         "width":  2141,
+                         "height":  2700,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 10-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 10 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD010_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 10-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 10-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 10-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2141,
+                                                             "height":  2700
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 10-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 11-r.json",
+                         "label":  "doc. 11 recto",
+                         "width":  2128,
+                         "height":  2687,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 11-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 11 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD011_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 11-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 11-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 11-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2128,
+                                                             "height":  2687
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 11-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 12-r.json",
+                         "label":  "doc. 12 recto",
+                         "width":  2125,
+                         "height":  2671,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 12-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 12 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD012_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 12-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 12-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 12-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2125,
+                                                             "height":  2671
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 12-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 13-r.json",
+                         "label":  "doc. 13 recto",
+                         "width":  2130,
+                         "height":  2689,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 13-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 13 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD013_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 13-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 13-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 13-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2130,
+                                                             "height":  2689
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 13-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 14-r.json",
+                         "label":  "doc. 14 recto",
+                         "width":  2130,
+                         "height":  2697,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 14-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 14 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD014_R_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 14-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 14-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 14-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2130,
+                                                             "height":  2697
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 14-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 15-r.json",
+                         "label":  "doc. 15 recto",
+                         "width":  2122,
+                         "height":  2679,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 15-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 15 recto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD015_R_ME_.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 15-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 15-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 15-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2122,
+                                                             "height":  2679
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 15-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 16-v.json",
+                         "label":  "doc. 16 verso",
+                         "width":  2116,
+                         "height":  2704,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 16-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Fascicolo della Tomba dell'abbraccio, b. 6, fasc. 146"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, Davide, b. 6, fasc. 146, doc. 16 verso"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B06_F146_UD016_V_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-fascicolo-corredo-b06-f146-doc. 16-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 16-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-fascicolo-corredo-b06-f146-doc. 16-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2116,
+                                                             "height":  2704
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-fascicolo-corredo-b06-f146-doc. 16-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

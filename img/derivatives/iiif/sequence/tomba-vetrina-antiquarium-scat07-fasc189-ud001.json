@@ -1,0 +1,54 @@
+---
+layout: none
+---
+{
+  "@id": "{{ '/img/derivatives/iiif/sequence/tomba-vetrina-antiquarium-scat07-fasc189-ud001.json' | absolute_url }}",
+  "@type": "sc:Sequence",
+  "canvases": [
+    {
+      "@type": "sc:Canvas",
+      "@id": "{{ '/img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-ud001.json' | absolute_url }}",
+      "label": "FDP_SCAT07_FASC189_UD001_ME_R.jpg",
+      "width": 2415,
+      "height": 1700,
+      "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud001/full/250,/0/default.jpg' | absolute_url }}",
+      "metadata": [
+        {
+          "label": "Titolo",
+          "value": "Vetrina storica con elementi del corredo, scat. 7, fasc. 189, doc. 1"
+        },
+        {
+          "label": "Riferimento",
+          "value": "Fondo Pace, scat. 7, fasc. 189, doc. 1"
+        },
+        {
+          "label": "File sorgente",
+          "value": "FDP_SCAT07_FASC189_UD001_ME_R.jpg"
+        }
+      ],
+      "images": [
+        {
+          "@type": "oa:Annotation",
+          "@id": "{{ '/img/derivatives/iiif/annotation/tomba-vetrina-antiquarium-scat07-fasc189-ud001.json' | absolute_url }}",
+          "motivation": "sc:painting",
+          "resource": {
+            "@id": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud001/full/full/0/default.jpg' | absolute_url }}",
+            "@type": "dcterms:Image",
+            "format": "image/jpeg",
+            "service": {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud001' | absolute_url }}",
+              "profile": "http://iiif.io/api/image/2/level0.json"
+            },
+            "width": 2415,
+            "height": 1700
+          },
+          "on": "{{ '/img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-ud001.json' | absolute_url }}",
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ],
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

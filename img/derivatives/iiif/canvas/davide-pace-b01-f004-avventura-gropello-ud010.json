@@ -1,0 +1,83 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-b01-f004-avventura-gropello-ud010.json",
+    "label":  "Lettera di Davide Pace ad Arrigo Arrigoni, 9 dicembre 1958",
+    "width":  2212,
+    "height":  2766,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud010/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Lettera di Davide Pace ad Arrigo Arrigoni, 9 dicembre 1958"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "lettera dattiloscritta con annotazioni manoscritte"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Fondo",
+                         "value":  "Fondo Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Archivio Davide Pace, b. 1, fasc. 4, doc. 10"
+                     },
+                     {
+                         "label":  "Autore / mittente",
+                         "value":  "Davide Pace"
+                     },
+                     {
+                         "label":  "Destinatario",
+                         "value":  "Arrigo Arrigoni"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "9 dicembre 1958"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Davide Pace; Arrigo Arrigoni; correzioni editoriali; pubblicazione"
+                     },
+                     {
+                         "label":  "Lingua",
+                         "value":  "italiano"
+                     },
+                     {
+                         "label":  "Diritti",
+                         "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B01_F004_UD010_ME_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-b01-f004-avventura-gropello-ud010.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud010/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-b01-f004-avventura-gropello-ud010",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2212,
+                                        "height":  2766
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-b01-f004-avventura-gropello-ud010.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

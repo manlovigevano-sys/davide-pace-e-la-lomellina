@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2129,
+    "height":  2122,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  249
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1136
+                  },
+                  {
+                      "width":  2129,
+                      "height":  2122
+                  },
+                  {
+                      "width":  2129,
+                      "height":  2122
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

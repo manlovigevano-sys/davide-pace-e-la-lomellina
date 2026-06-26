@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-corredo-fortunati-1979-fig-2",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  1540,
+    "height":  1021,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  166
+                  },
+                  {
+                      "width":  1140,
+                      "height":  756
+                  },
+                  {
+                      "width":  1540,
+                      "height":  1021
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

@@ -1,0 +1,36 @@
+<article class="reperto-card{% if include.featured %} reperto-card-featured{% endif %}{% if include.missing %} reperto-card-missing{% endif %}">
+  <div class="reperto-media{% if include.img2 %} reperto-media-scroll{% endif %}">
+    {% if include.missing %}
+      <div class="reperto-image-placeholder">
+        <span>Immagine non disponibile</span>
+      </div>
+    {% else %}
+      <figure>
+        <img src="{{ include.img1 | relative_url }}" alt="{{ include.alt1 | default: include.title | escape }}">
+        {% if include.caption1 %}<figcaption>{{ include.caption1 }}</figcaption>{% endif %}
+      </figure>
+      {% if include.img2 %}
+        <figure>
+          <img src="{{ include.img2 | relative_url }}" alt="{{ include.alt2 | default: include.title | escape }}">
+          {% if include.caption2 %}<figcaption>{{ include.caption2 }}</figcaption>{% endif %}
+        </figure>
+      {% endif %}
+    {% endif %}
+  </div>
+  {% if include.img2 %}
+    <div class="reperto-scroll-hint" aria-hidden="true">
+      <span>&larr;</span>
+      <span>Scorri</span>
+      <span>&rarr;</span>
+    </div>
+  {% endif %}
+  <h3>
+    {% if include.href %}
+      <a href="{{ include.href | relative_url }}">{{ include.title }}</a>
+    {% else %}
+      {{ include.title }}
+    {% endif %}
+  </h3>
+  {% if include.description %}<p>{{ include.description }}</p>{% endif %}
+  <span>{{ include.inventory }} &middot; {{ include.repository | default: 'MANLo' }} &middot; {{ include.status | default: 'deposito' }}{% if include.location %} &middot; {{ include.location }}{% endif %}</span>
+</article>

@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-ud001-r' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 5695,
+  "height": 4279,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 188
+    },
+    {
+      "width": 1140,
+      "height": 857
+    },
+    {
+      "width": 5100,
+      "height": 3832
+    },
+    {
+      "width": 5695,
+      "height": 4279
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

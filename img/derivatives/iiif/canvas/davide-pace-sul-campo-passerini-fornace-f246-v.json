@@ -1,0 +1,79 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-passerini-fornace-f246-v.json",
+    "label":  "Podere Passerini. Fornace romana, fotogramma ingrandito, verso",
+    "width":  4293,
+    "height":  5758,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-passerini-fornace-f246-v/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Podere Passerini. Fornace romana, fotogramma ingrandito, verso"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "verso di stampa fotografica con annotazioni manoscritte"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Fondo",
+                         "value":  "Fondo Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Archivio Davide Pace, scat. 11, fasc. 246, doc. 3"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Gropello Cairoli, podere Passerini"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "31 luglio 1958 - 10 luglio 1959"
+                     },
+                     {
+                         "label":  "Descrizione",
+                         "value":  "Verso della stampa con annotazioni manoscritte relative al soggetto, alle strutture documentate e alla campagna fotografica della fornace romana."
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "annotazioni manoscritte; fornace romana; podere Passerini; Davide Pace; Francesco Pace"
+                     },
+                     {
+                         "label":  "Diritti",
+                         "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_SCAT11_F246_UD003_ME_V.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-sul-campo-passerini-fornace-f246-v.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-passerini-fornace-f246-v/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-passerini-fornace-f246-v",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  4293,
+                                        "height":  5758
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-passerini-fornace-f246-v.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

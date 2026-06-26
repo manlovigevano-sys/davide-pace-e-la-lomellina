@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  2068,
+    "height":  2901,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  351
+                  },
+                  {
+                      "width":  1140,
+                      "height":  1599
+                  },
+                  {
+                      "width":  2068,
+                      "height":  2901
+                  },
+                  {
+                      "width":  2068,
+                      "height":  2901
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

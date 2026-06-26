@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+    "@type":  "oa:Annotation",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-negativi-positivi-b5-f140-doc3-fot07-pos.json",
+    "motivation":  "sc:painting",
+    "resource":  {
+                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-negativi-positivi-b5-f140-doc3-fot07-pos/full/full/0/default.jpg",
+                     "@type":  "dcterms:Image",
+                     "format":  "image/jpeg",
+                     "service":  {
+                                     "@context":  "http://iiif.io/api/image/2/context.json",
+                                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-negativi-positivi-b5-f140-doc3-fot07-pos",
+                                     "profile":  "http://iiif.io/api/image/2/level0.json"
+                                 },
+                     "width":  4535,
+                     "height":  3070
+                 },
+    "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-negativi-positivi-b5-f140-doc3-fot07-pos.json",
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

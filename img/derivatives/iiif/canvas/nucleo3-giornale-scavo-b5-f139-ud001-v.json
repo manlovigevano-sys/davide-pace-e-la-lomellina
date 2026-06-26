@@ -1,0 +1,63 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-ud001-v.json' | absolute_url }}",
+  "label": "Giornale di scavo manoscritto, verso con disegno dei reperti",
+  "width": 2046,
+  "height": 2878,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-ud001-v/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Giornale di scavo manoscritto, verso con disegno dei reperti"
+    },
+    {
+      "label": "Tipologia",
+      "value": "giornale di scavo, annotazioni e disegni"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, b. 5, fasc. 139, doc. 1 verso"
+    },
+    {
+      "label": "Data",
+      "value": "27 gennaio 1961"
+    },
+    {
+      "label": "Luogo",
+      "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_B05_F139_UD001_ME_V.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-ud001-v.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-ud001-v/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-ud001-v' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2046,
+        "height": 2878
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-ud001-v.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+  "label": "Negativo trasformato in positivo",
+  "width": 4533,
+  "height": 3033,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Negativo trasformato in positivo"
+    },
+    {
+      "label": "Tipologia",
+      "value": "positivo digitale da negativo"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, b. 2, fasc. 35, doc. 8, fot. 1 positivo"
+    },
+    {
+      "label": "Soggetto",
+      "value": "iscrizione; ATILIVS; negativo fotografico; documentazione epigrafica"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_B02_F035_UD008_ME_FOT01_POS.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-iscrizione-ud008-fot01-pos' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 4533,
+        "height": 3033
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-iscrizione-ud008-fot01-pos.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

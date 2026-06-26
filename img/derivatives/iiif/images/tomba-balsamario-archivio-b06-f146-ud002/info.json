@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/tomba-balsamario-archivio-b06-f146-ud002' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3384,
+  "height": 2147,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 159
+    },
+    {
+      "width": 1140,
+      "height": 723
+    },
+    {
+      "width": 3384,
+      "height": 2147
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

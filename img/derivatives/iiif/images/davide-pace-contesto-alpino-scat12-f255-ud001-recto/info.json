@@ -1,0 +1,42 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/images/davide-pace-contesto-alpino-scat12-f255-ud001-recto",
+  "protocol": "http://iiif.io/api/image",
+  "width": 1758,
+  "height": 2509,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 357
+    },
+    {
+      "width": 1140,
+      "height": 1627
+    },
+    {
+      "width": 1758,
+      "height": 2509
+    },
+    {
+      "width": 1758,
+      "height": 2509
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ],
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/img/derivatives/iiif/annotation/davide-pace-santo-spirito-scavi-f266-ud011-fot01.json' | absolute_url }}",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-ud011-fot01/full/full/0/default.jpg' | absolute_url }}",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-ud011-fot01' | absolute_url }}",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 3362,
+    "height": 3148
+  },
+  "on": "{{ '/img/derivatives/iiif/canvas/davide-pace-santo-spirito-scavi-f266-ud011-fot01.json' | absolute_url }}",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

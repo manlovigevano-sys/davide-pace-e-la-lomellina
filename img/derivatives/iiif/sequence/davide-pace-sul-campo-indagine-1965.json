@@ -1,0 +1,86 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/davide-pace-sul-campo-indagine-1965.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-indagine-1965-r-01.json",
+                         "label":  "Documentazione fotografica di indagine sul campo, 12 novembre 1965",
+                         "width":  3051,
+                         "height":  2114,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-indagine-1965-r-01/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Documentazione fotografica di indagine sul campo, 12 novembre 1965"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "stampa fotografica a colori"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Fondo",
+                                              "value":  "Fondo Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Archivio Davide Pace, scat. 12, fasc. 256, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Lomellina"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "12 novembre 1965"
+                                          },
+                                          {
+                                              "label":  "Descrizione",
+                                              "value":  "Stampa a colori di documentazione fotografica di indagine sul campo, 12 novembre 1965. L'immagine raffigura Davide Pace insieme a una persona non identificata accanto a un settore di scavo, con attrezzi da lavoro, durante le attivit? di indagine."
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Davide Pace; indagine sul campo; settore di scavo; attrezzi da lavoro"
+                                          },
+                                          {
+                                              "label":  "Diritti",
+                                              "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SC12_F256_UD001_MASTER_R_01.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-sul-campo-indagine-1965-r-01.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-indagine-1965-r-01/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-indagine-1965-r-01",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3051,
+                                                             "height":  2114
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-indagine-1965-r-01.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

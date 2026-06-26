@@ -1,0 +1,132 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/tomba-vetrina-antiquarium-scat07-fasc189-ud002/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Vetrine storiche dell'Antiquarium Lomellinum Antona, scat. 7, fasc. 189, doc. 2",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-scat07-f189-doc02"
+    },
+    {
+      "label": "PID precedente",
+      "value": "tomba-vetrina-antiquarium-scat07-fasc189-ud002"
+    },
+    {
+      "label": "Titolo",
+      "value": "Vetrine storiche dell'Antiquarium Lomellinum Antona, scat. 7, fasc. 189, doc. 2"
+    },
+    {
+      "label": "Tipologia",
+      "value": "documentazione fotografica"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "s.d."
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Frascate, vigna Garaldi"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Archivio Davide Pace, scat. 7, fasc. 189, doc. 2"
+    },
+    {
+      "label": "Consistenza",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Frascate; scavi archeologici; necropoli; allestimenti museali; Davide Pace"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Fotografia storica delle vetrine dell'Antiquarium Lomellinum Antona con materiali della necropoli e confronti di allestimento."
+    },
+    {
+      "label": "Diritti",
+      "value": "&copy; Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Dal territorio al museo"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/tomba-vetrina-antiquarium-scat07-fasc189-ud002.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-ud002.json' | absolute_url }}",
+          "label": "FDP_SCAT07_FASC189_UD002_ME_R.jpg",
+          "width": 2448,
+          "height": 1672,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Vetrine storiche con materiali della necropoli, scat. 7, fasc. 189, doc. 2"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, scat. 7, fasc. 189, doc. 2"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_SCAT07_FASC189_UD002_ME_R.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/tomba-vetrina-antiquarium-scat07-fasc189-ud002.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2448,
+                "height": 1672
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/tomba-vetrina-antiquarium-scat07-fasc189-ud002.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002/full/1140,/0/default.jpg' | absolute_url }}"
+}

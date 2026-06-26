@@ -15,7 +15,7 @@
         <p class='footer-title'>Links</p>
         <p class='footer-links'>
           {% for item in site.footer.links %}
-            <a href='{{ item.link | absolute_url }}'>
+            <a href='{{ item.link | relative_url }}'>
               {{ item.label }}
             </a>
           {% unless forloop.last %} / {% endunless %}
@@ -24,8 +24,8 @@
         <p class='footer-logos'>
           {% for item in site.footer.logos %}
           {% assign link = item.link | default: '#' %}
-          <a href="{{ link | absolute_url }}" aria-label="Logo link to resource">
-            <img src='{{ item.img | absolute_url }}' alt="logo"/>
+          <a href="{{ link | relative_url }}" aria-label="Logo link to resource">
+            <img src='{{ item.img | relative_url }}' alt="logo"/>
           </a>
           {% endfor %}
         </p>

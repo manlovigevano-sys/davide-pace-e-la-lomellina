@@ -1,0 +1,86 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/davide-pace-rete-documentazione-santo-spirito-doc11.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json",
+                         "label":  "Santo Spirito. Indagini archeologiche, doc. 11: fascicolo rosso e frammento fittile",
+                         "width":  2106,
+                         "height":  2132,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Santo Spirito. Indagini archeologiche, doc. 11: fascicolo rosso e frammento fittile"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "stampa a colori"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Fondo",
+                                              "value":  "Fondo Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Archivio Davide Pace, scat. 8, fasc. 202, doc. 11"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Gropello Cairoli, Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "novembre 1964"
+                                          },
+                                          {
+                                              "label":  "Descrizione",
+                                              "value":  "Stampa a colori raffigurante un interno con tavolo, fascicolo rosso e frammento fittile. Pur apparendo non pertinente al contesto dello scavo, documenta materiali e pratiche di inventariazione e documentazione archivistica legate all Archivio Davide Pace."
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Archivio Davide Pace; fascicoli archivistici; frammento fittile; inventariazione; documentazione archivistica"
+                                          },
+                                          {
+                                              "label":  "Diritti",
+                                              "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_SCAT08_F202_UD011_ME.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2106,
+                                                             "height":  2132
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc11-scat08-f202-doc11.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

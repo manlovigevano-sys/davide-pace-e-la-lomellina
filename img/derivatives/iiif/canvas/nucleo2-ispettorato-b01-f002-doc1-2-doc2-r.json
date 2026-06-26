@@ -1,0 +1,63 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r.json",
+    "label":  "Avviso ai cittàdini e agli agricoltori, doc. 2 recto",
+    "width":  5100,
+    "height":  6600,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Avviso ai cittàdini e agli agricoltori, doc. 2 recto"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "circolare, avviso pubblico, regolamento"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, b. 1, fasc. 2, doc. 2 recto"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "22 ottobre 1955"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Gropello Cairoli"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B01_F002_UD002_ME_R_01.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  5100,
+                                        "height":  6600
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-ispettorato-b01-f002-doc1-2-doc2-r.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

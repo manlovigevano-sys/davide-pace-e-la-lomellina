@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud009-v' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 5452,
+  "height": 6847,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 314
+    },
+    {
+      "width": 1140,
+      "height": 1432
+    },
+    {
+      "width": 5100,
+      "height": 6405
+    },
+    {
+      "width": 5452,
+      "height": 6847
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

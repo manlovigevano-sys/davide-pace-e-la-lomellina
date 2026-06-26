@@ -1,0 +1,47 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud006.json",
+    "label":  "UD006",
+    "width":  5100,
+    "height":  6600,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Relazione di Davide Pace sulla Tomba dell'abbraccio, fasc. 148"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Fondo Pace, Davide, b. 6, fasc. 148, UD006"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_B06_F148_UD006_R_ME.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/tomba-relazione-pace-b06-f148-ud006.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/tomba-relazione-pace-b06-f148-ud006",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  5100,
+                                        "height":  6600
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/tomba-relazione-pace-b06-f148-ud006.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

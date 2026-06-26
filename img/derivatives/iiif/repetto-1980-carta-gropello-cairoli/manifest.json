@@ -1,0 +1,128 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/repetto-1980-carta-gropello-cairoli/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Carta archeologica del territorio di Gropello Cairoli",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/carta-repetto-gropello.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/carta-repetto-gropello.json' | absolute_url }}",
+          "label": "Carta archeologica del territorio di Gropello Cairoli",
+          "width": 1140,
+          "height": 802,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/250,/0/default.jpg' | absolute_url }}",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/carta-repetto-gropello.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 1140,
+                "height": 802
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/carta-repetto-gropello.json' | absolute_url }}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/carta-repetto-gropello/full/1140,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "repetto-1980-carta-gropello-cairoli"
+    },
+    {
+      "label": "PID precedente",
+      "value": "carta-repetto-gropello"
+    },
+    {
+      "label": "Titolo",
+      "value": "Carta archeologica del territorio di Gropello Cairoli"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "fonte bibliografica"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "image"
+    },
+    {
+      "label": "Creatore",
+      "value": "Arnaldo Repetto"
+    },
+    {
+      "label": "Data",
+      "value": "1980"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV)"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, Repetto, A., 1980 (a cura di), Antiquarium Laumellinum Antona. Guida al Museo Civico Archeologico"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; scavi archeologici; allestimenti museali; rilievi archeologici; carta archeologica; fonte bibliografica"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Carta archeologica del territorio di Gropello Cairoli con indicazione delle principali località di rinvenimento e delle aree archeologiche note. Fonte: Repetto, A., 1980 (a cura di), Antiquarium Laumellinum Antona. Guida al Museo Civico Archeologico, Comune di Gropello Cairoli."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Dal territorio al museo"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/pages/territorio-museo/"
+    }
+  ]
+}

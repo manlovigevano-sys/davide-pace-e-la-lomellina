@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+    "@type":  "oa:Annotation",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-reperto-13418-dettaglio-dettaglio-iscrizione.json",
+    "motivation":  "sc:painting",
+    "resource":  {
+                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-dettaglio-dettaglio-iscrizione/full/full/0/default.jpg",
+                     "@type":  "dcterms:Image",
+                     "format":  "image/jpeg",
+                     "service":  {
+                                     "@context":  "http://iiif.io/api/image/2/context.json",
+                                     "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-reperto-13418-dettaglio-dettaglio-iscrizione",
+                                     "profile":  "http://iiif.io/api/image/2/level0.json"
+                                 },
+                     "width":  2000,
+                     "height":  2000
+                 },
+    "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-reperto-13418-dettaglio-dettaglio-iscrizione.json",
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

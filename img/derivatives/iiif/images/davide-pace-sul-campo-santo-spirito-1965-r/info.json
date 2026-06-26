@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+    "@context":  "http://iiif.io/api/image/2/context.json",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-santo-spirito-1965-r",
+    "protocol":  "http://iiif.io/api/image",
+    "width":  3552,
+    "height":  2486,
+    "sizes":  [
+                  {
+                      "width":  250,
+                      "height":  175
+                  },
+                  {
+                      "width":  1140,
+                      "height":  798
+                  },
+                  {
+                      "width":  3552,
+                      "height":  2486
+                  },
+                  {
+                      "width":  3552,
+                      "height":  2486
+                  }
+              ],
+    "profile":  [
+                    "http://iiif.io/api/image/2/level0.json",
+                    {
+                        "supports":  [
+                                         "sizeByW"
+                                     ]
+                    }
+                ]
+}

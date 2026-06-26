@@ -1,0 +1,23 @@
+C:/Ruby33-x64/bin/jekyll:25: warning: csv was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.4.0.
+You can add csv to your Gemfile or gemspec to silence this warning.
+C:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/safe_yaml-1.0.5/lib/safe_yaml/load.rb:22: warning: base64 was loaded from the standard library, but will no longer be part of the default gems starting from Ruby 3.4.0.
+You can add base64 to your Gemfile or gemspec to silence this warning.
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+49 │ @import 'wax';
+   │         ^^^^^
+   ╵
+    C:\Users\grazi_cthx1it\web-projects\archivio_pace-digital-exhibition\assets\styles.scss 49:9  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+1 │ @import 'bootstrap';
+  │         ^^^^^^^^^^^
+  ╵
+    _wax.scss 1:9                                                                                 @import
+    C:\Users\grazi_cthx1it\web-projects\archivio_pace-digital-exhibition\assets\styles.scss 49:9  root stylesheet

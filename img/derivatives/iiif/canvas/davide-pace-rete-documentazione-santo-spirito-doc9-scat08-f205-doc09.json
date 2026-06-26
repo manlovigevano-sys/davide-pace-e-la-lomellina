@@ -1,0 +1,79 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09.json",
+    "label":  "Santo Spirito. Indagini archeologiche, doc. 9: ripresa fotografica sul campo",
+    "width":  2129,
+    "height":  2122,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Santo Spirito. Indagini archeologiche, doc. 9: ripresa fotografica sul campo"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "stampa a colori"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Fondo",
+                         "value":  "Fondo Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Archivio Davide Pace, scat. 8, fasc. 205, doc. 9"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Gropello Cairoli, Santo Spirito"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "aprile 1965"
+                     },
+                     {
+                         "label":  "Descrizione",
+                         "value":  "Stampa a colori che documenta le attivit? di ripresa fotografica e registrazione visiva delle indagini archeologiche condotte a Santo Spirito nell aprile 1965."
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "Gropello Cairoli; Santo Spirito; indagini archeologiche; ripresa fotografica; documentazione sul campo"
+                     },
+                     {
+                         "label":  "Diritti",
+                         "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_SC08_F205_UD009_R.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  2129,
+                                        "height":  2122
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-rete-documentazione-santo-spirito-doc9-scat08-f205-doc09.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

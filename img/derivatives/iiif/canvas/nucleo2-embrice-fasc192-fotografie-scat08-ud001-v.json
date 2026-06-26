@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v.json' | absolute_url }}",
+  "label": "Verso con annotazione Atilius",
+  "width": 2557,
+  "height": 1820,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Verso con annotazione Atilius"
+    },
+    {
+      "label": "Tipologia",
+      "value": "verso fotografico con annotazione"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, scat. 8, fasc. 192, doc. 1 verso"
+    },
+    {
+      "label": "Soggetto",
+      "value": "iscrizione; ATILIVS; documentazione fotografica; Santo Spirito"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_SCAT08_FASC192_UD001_ME_V.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2557,
+        "height": 1820
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-fasc192-fotografie-scat08-ud001-v.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

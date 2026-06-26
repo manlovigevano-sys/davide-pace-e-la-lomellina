@@ -1,0 +1,340 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b05-f140-fotografie-positive/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Fotografie digitalizzate dello scavo, b. 5, fasc. 140",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b05-f140-fotografie-positive"
+    },
+    {
+      "label": "PID precedente",
+      "value": "nucleo3-foto-scavo-b5-f140-positive"
+    },
+    {
+      "label": "Titolo",
+      "value": "Fotografie digitalizzate dello scavo, b. 5, fasc. 140"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "giornale di scavo"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "27 gennaio 1961"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV), località Marone, Settore Panzarasa"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 5, fasc. 140, doc. 1-2"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "4 immagini digitali"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; località Marone; Settore Panzarasa; scavi archeologici; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Giornale di scavo e annotazioni tecniche dell'Archivio Davide Pace, con dati sul rinvenimento, sulla disposizione dei materiali e sulle osservazioni effettuate nel contesto di Gropello Cairoli (PV), località Marone, Settore Panzarasa."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Documentare l'invisibile"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/documentare-invisibile/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/nucleo3-foto-scavo-b5-f140-positive.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc1-r.json' | absolute_url }}",
+          "label": "Stampa fotografica dello scavo, doc. 1 recto",
+          "width": 2506,
+          "height": 1793,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Stampa fotografica dello scavo, doc. 1 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica di scavo"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 1 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD001_ME_R_02.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-foto-scavo-b5-f140-positive-doc1-r.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2506,
+                "height": 1793
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc1-r.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01.json' | absolute_url }}",
+          "label": "Retro della stampa fotografica, doc. 1 verso",
+          "width": 2514,
+          "height": 1800,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Retro della stampa fotografica, doc. 1 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica di scavo"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 1 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD001_ME_V_01.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2514,
+                "height": 1800
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc1-v-01.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json' | absolute_url }}",
+          "label": "Stampa fotografica dello scavo, doc. 2 recto",
+          "width": 2511,
+          "height": 1811,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Stampa fotografica dello scavo, doc. 2 recto"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica di scavo"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 2 recto"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD002_ME_R_01.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2511,
+                "height": 1811
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-r-01.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        },
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-v.json' | absolute_url }}",
+          "label": "Retro della stampa fotografica, doc. 2 verso",
+          "width": 2516,
+          "height": 1794,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-v/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Retro della stampa fotografica, doc. 2 verso"
+            },
+            {
+              "label": "Tipologia",
+              "value": "documentazione fotografica di scavo"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 5, fasc. 140, doc. 2 verso"
+            },
+            {
+              "label": "Data",
+              "value": "27 gennaio 1961"
+            },
+            {
+              "label": "Luogo",
+              "value": "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B05_F140_UD002_ME_V_01.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo3-foto-scavo-b5-f140-positive-doc2-v.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-v/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc2-v' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2516,
+                "height": 1794
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo3-foto-scavo-b5-f140-positive-doc2-v.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/nucleo3-foto-scavo-b5-f140-positive-doc1-r/full/1140,/0/default.jpg' | absolute_url }}"
+}

@@ -1,0 +1,32 @@
+{% assign items = site[include.collection] | where: 'pid', include.pid %}
+{% if items.size == 0 %}
+  {% assign items = site[include.collection] | where: 'original_pid', include.pid %}
+{% endif %}
+{% assign item = items | first %}
+{% assign image_class = include.image_class | default: '' %}
+{% assign figure_class = include.figure_class | default: '' %}
+{% if item %}
+  {% assign figure_image = item.full | default: item.thumbnail %}
+  {% assign figure_image_file = site.static_files | where: 'path', figure_image | first %}
+  {% unless figure_image_file %}
+    {% assign figure_image = site.default_thumb %}
+  {% endunless %}
+  <figure class='{{ figure_class }}'>
+    <a href='{{ item.url | relative_url }}' aria-label='Apri la scheda: {{ item.label | escape }}'>
+      <img class='{{ image_class }}' src='{{ figure_image | relative_url }}' alt='{{ include.alt | default: item.label | escape }}'>
+    </a>
+    {% if include.caption or item.manifest %}
+      <figcaption>
+        {% if include.reference %}
+          <span>{{ include.reference }}</span>
+        {% endif %}
+        {% if include.caption %}
+          {{ include.caption }}
+        {% endif %}
+        {% if item.manifest %}
+          <a class="secondary-button case-caption-action-button figure-caption-button" href="{{ item.url | relative_url }}">Consulta la scheda della collezione</a>
+        {% endif %}
+      </figcaption>
+    {% endif %}
+  </figure>
+{% endif %}

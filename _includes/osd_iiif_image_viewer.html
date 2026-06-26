@@ -1,25 +1,138 @@
-<div id="osd" class="image-viewer"></div>
-<script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | absolute_url }}"></script>
+{% assign viewer_id = include.viewer_id | default: 'osd' %}
+{% assign manifest_slug = include.manifest | remove: '/manifest.json' | split: '/' | last %}
+{% assign collection_item = site.pace | where: 'pid', manifest_slug | first %}
+{% unless collection_item %}
+  {% assign collection_item = site.pace | where: 'original_pid', manifest_slug | first %}
+{% endunless %}
+{% unless collection_item %}
+  {% assign collection_item = site.pace | where: 'manifest', include.manifest | first %}
+{% endunless %}
+{% assign full_viewer = false %}
+{% if include.mode == 'viewer' %}
+  {% assign full_viewer = true %}
+{% endif %}
 
-<script>
-  $(document).ready(function () {
-    var manifestUrl = "{{ include.manifest | absolute_url }}";
-    $.getJSON(manifestUrl, function(data) {
-      var tileSources = [];
-      $.each(data.sequences[0].canvases, function(_k, val) {
-        tileSources.push({
-          tileSource: val.images[0].resource.service['@id'] + '/info.json',
-          referenceStripThumbnailUrl: val.thumbnail
+{% if full_viewer %}
+  <div id="{{ viewer_id }}" class="image-viewer"></div>
+  <script defer src="{{ '/assets/openseadragon/openseadragon.min.js' | relative_url }}"></script>
+
+  <script>
+    $(document).ready(function () {
+      var manifestUrl = "{{ include.manifest | relative_url }}";
+      $.getJSON(manifestUrl, function(data) {
+        var tileSources = [];
+        $.each(data.sequences[0].canvases, function(_k, val) {
+          tileSources.push({
+            tileSource: val.images[0].resource.service['@id'] + '/info.json',
+            referenceStripThumbnailUrl: val.thumbnail
+          });
         });
-      });
-      OpenSeadragon({
-        id: "osd",
-        preload: true,
-        sequenceMode: true,
-        prefixUrl: "{{ '/assets/openseadragon/images/' | absolute_url }}",
-        tileSources: tileSources,
-        showReferenceStrip: true,
+        var isSequence = tileSources.length > 1;
+        var viewer = OpenSeadragon({
+          id: "{{ viewer_id }}",
+          preload: true,
+          sequenceMode: isSequence,
+          prefixUrl: "{{ '/assets/openseadragon/images/' | relative_url }}",
+          tileSources: tileSources,
+          showReferenceStrip: isSequence,
+        });
+        var refreshViewer = function () {
+          if (!viewer || !viewer.viewport || !viewer.container) {
+            return;
+          }
+          viewer.viewport.resize(
+            new OpenSeadragon.Point(viewer.container.clientWidth, viewer.container.clientHeight),
+            true
+          );
+          viewer.viewport.goHome(true);
+          viewer.forceRedraw();
+        };
+        viewer.addOnceHandler('open', function () {
+          window.setTimeout(refreshViewer, 0);
+          window.setTimeout(refreshViewer, 250);
+        });
+        $(window).on('load resize', function () {
+          window.setTimeout(refreshViewer, 100);
+        });
+        if ('IntersectionObserver' in window) {
+          var didRefresh = false;
+          var observer = new IntersectionObserver(function (entries) {
+            if (didRefresh || !entries[0].isIntersecting) {
+              return;
+            }
+            didRefresh = true;
+            window.setTimeout(refreshViewer, 100);
+            observer.disconnect();
+          });
+          observer.observe(document.getElementById("{{ viewer_id }}"));
+        }
       });
     });
-  });
-</script>
+  </script>
+{% else %}
+  <div id="{{ viewer_id }}" class="image-viewer iiif-static-preview" data-iiif-manifest="{{ include.manifest | relative_url }}">
+    {% if collection_item %}
+      <a class="iiif-static-preview-link" href="{{ collection_item.url | relative_url }}" aria-label="Consulta la scheda della collezione">
+        <img alt="" loading="lazy">
+      </a>
+    {% else %}
+      <img alt="" loading="lazy">
+    {% endif %}
+  </div>
+  <script>
+    $(document).ready(function () {
+      var $frame = $("#{{ viewer_id }}");
+      var manifestUrl = $frame.data("iiif-manifest");
+      $.getJSON(manifestUrl, function(data) {
+        var canvases = data.sequences && data.sequences[0] && data.sequences[0].canvases ? data.sequences[0].canvases : [];
+        if (!canvases.length) {
+          return;
+        }
+        var previews = $.map(canvases, function(canvas) {
+          var preview = canvas.thumbnail;
+          if (canvas.images && canvas.images[0] && canvas.images[0].resource && canvas.images[0].resource.service) {
+            preview = canvas.images[0].resource.service['@id'] + '/full/1140,/0/default.jpg';
+          }
+          return {
+            src: preview,
+            alt: canvas.label || data.label || ""
+          };
+        });
+        var current = 0;
+        var $img = $frame.find("img").first();
+        var render = function() {
+          $img.attr({
+            src: previews[current].src,
+            alt: previews[current].alt
+          });
+        };
+        render();
+        if (previews.length > 1) {
+          var $controls = $('<div class="iiif-static-controls" aria-label="Sfoglia le immagini"></div>');
+          var $prev = $('<button type="button" class="iiif-static-control" aria-label="Immagine precedente">‹</button>');
+          var $next = $('<button type="button" class="iiif-static-control" aria-label="Immagine successiva">›</button>');
+          var $count = $('<span class="iiif-static-count" aria-live="polite"></span>');
+          var renderWithCount = function() {
+            render();
+            $count.text((current + 1) + ' / ' + previews.length);
+          };
+          $prev.on("click", function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            current = (current + previews.length - 1) % previews.length;
+            renderWithCount();
+          });
+          $next.on("click", function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            current = (current + 1) % previews.length;
+            renderWithCount();
+          });
+          $controls.append($prev, $count, $next);
+          $frame.append($controls);
+          renderWithCount();
+        }
+      });
+    });
+  </script>
+{% endif %}

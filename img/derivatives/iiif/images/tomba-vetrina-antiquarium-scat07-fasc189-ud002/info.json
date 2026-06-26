@@ -1,0 +1,32 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/tomba-vetrina-antiquarium-scat07-fasc189-ud002' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 2448,
+  "height": 1672,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 171
+    },
+    {
+      "width": 1140,
+      "height": 779
+    },
+    {
+      "width": 2448,
+      "height": 1672
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

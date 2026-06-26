@@ -1,0 +1,234 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo2-embrice-rinvenimento-b02-f035.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r.json",
+                         "label":  "Vigna Carlo Nicola, Santo Spirito",
+                         "width":  5695,
+                         "height":  4279,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Vigna Carlo Nicola, Santo Spirito"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 1"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "rinvenimento; vigna Carlo Nicola; Santo Spirito; embrice iscritto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD001_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5695,
+                                                             "height":  4279
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 1-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r.json",
+                         "label":  "Frammenti dell'embrice nel terreno",
+                         "width":  5674,
+                         "height":  4282,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Frammenti dell'embrice nel terreno"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 2"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "rinvenimento; vigna Carlo Nicola; Santo Spirito; embrice iscritto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD002_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5674,
+                                                             "height":  4282
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 2-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r.json",
+                         "label":  "Ragazzi e collaboratori nel luogo del rinvenimento",
+                         "width":  5702,
+                         "height":  4221,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Ragazzi e collaboratori nel luogo del rinvenimento"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 3"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "rinvenimento; vigna Carlo Nicola; Santo Spirito; embrice iscritto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD003_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5702,
+                                                             "height":  4221
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 3-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r.json",
+                         "label":  "Embrice iscritto ricomposto",
+                         "width":  5700,
+                         "height":  4275,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Embrice iscritto ricomposto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "documentazione fotografica"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 2, fasc. 35, doc. 4"
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "rinvenimento; vigna Carlo Nicola; Santo Spirito; embrice iscritto"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B02_F035_UD004_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  5700,
+                                                             "height":  4275
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo2-embrice-rinvenimento-b02-f035-doc. 4-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

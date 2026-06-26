@@ -1,0 +1,370 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/nucleo3-giornale-scavo-b5-f139.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 1-r.json",
+                         "label":  "Giornale di scavo manoscritto, recto",
+                         "width":  2022,
+                         "height":  2836,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Giornale di scavo manoscritto, recto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 1 recto"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD001_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 1-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2022,
+                                                             "height":  2836
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 1-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 1-v.json",
+                         "label":  "Giornale di scavo manoscritto, verso con disegno dei reperti",
+                         "width":  2046,
+                         "height":  2878,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Giornale di scavo manoscritto, verso con disegno dei reperti"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 1 verso"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD001_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 1-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 1-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2046,
+                                                             "height":  2878
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 1-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 2-r.json",
+                         "label":  "Annotazione manoscritta collegata allo scavo",
+                         "width":  2081,
+                         "height":  2861,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 2-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Annotazione manoscritta collegata allo scavo"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 2 recto"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD002_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 2-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 2-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 2-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2081,
+                                                             "height":  2861
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 2-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 3-r.json",
+                         "label":  "Disegno planimetrico schematico dell'area di scavo",
+                         "width":  2124,
+                         "height":  2678,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 3-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Disegno planimetrico schematico dell'area di scavo"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 3 recto"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD003_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 3-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 3-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 3-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2124,
+                                                             "height":  2678
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 3-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 4-r.json",
+                         "label":  "Copia dattiloscritta del giornale di scavo, recto",
+                         "width":  2133,
+                         "height":  2678,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Copia dattiloscritta del giornale di scavo, recto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 4 recto"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD004_ME_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 4-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2133,
+                                                             "height":  2678
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 4-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 4-v.json",
+                         "label":  "Copia dattiloscritta del giornale di scavo, verso",
+                         "width":  2134,
+                         "height":  2705,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Copia dattiloscritta del giornale di scavo, verso"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "giornale di scavo, annotazioni e disegni"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Fondo Pace, b. 5, fasc. 139, doc. 4 verso"
+                                          },
+                                          {
+                                              "label":  "Data",
+                                              "value":  "27 gennaio 1961"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Dosso Vughera, settore Panzarasa, Gropello Cairoli"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B05_F139_UD004_ME_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/nucleo3-giornale-scavo-b5-f139-doc. 4-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/nucleo3-giornale-scavo-b5-f139-doc. 4-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  2134,
+                                                             "height":  2705
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/nucleo3-giornale-scavo-b5-f139-doc. 4-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

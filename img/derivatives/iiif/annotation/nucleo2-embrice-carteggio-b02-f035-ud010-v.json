@@ -1,0 +1,22 @@
+---
+layout: none
+---
+{
+  "@type": "oa:Annotation",
+  "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-ud010-v.json' | absolute_url }}",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud010-v/full/full/0/default.jpg' | absolute_url }}",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-ud010-v' | absolute_url }}",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 7865,
+    "height": 5274
+  },
+  "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-ud010-v.json' | absolute_url }}",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

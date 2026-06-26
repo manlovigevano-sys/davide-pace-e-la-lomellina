@@ -1,0 +1,79 @@
+---
+layout: none
+---
+{
+    "@type":  "sc:Canvas",
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01.json",
+    "label":  "Santo Spirito: veduta del promontorio e del paesaggio circostante",
+    "width":  3427,
+    "height":  3185,
+    "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01/full/250,/0/default.jpg",
+    "metadata":  [
+                     {
+                         "label":  "Titolo",
+                         "value":  "Santo Spirito: veduta del promontorio e del paesaggio circostante"
+                     },
+                     {
+                         "label":  "Tipologia",
+                         "value":  "diapositiva digitalizzata"
+                     },
+                     {
+                         "label":  "Archivio / istituto",
+                         "value":  "Archivio Davide Pace"
+                     },
+                     {
+                         "label":  "Fondo",
+                         "value":  "Fondo Davide Pace"
+                     },
+                     {
+                         "label":  "Riferimento",
+                         "value":  "Archivio Davide Pace, scat. 13.2, fasc. 266, doc. 17, fot. 01"
+                     },
+                     {
+                         "label":  "Luogo",
+                         "value":  "Gropello Cairoli, Santo Spirito"
+                     },
+                     {
+                         "label":  "Data",
+                         "value":  "1960 (?)"
+                     },
+                     {
+                         "label":  "Soggetto",
+                         "value":  "promontorio; paesaggio circostante; strumenti di scavo; area di lavoro"
+                     },
+                     {
+                         "label":  "Tecnica / supporto",
+                         "value":  "diapositiva digitalizzata"
+                     },
+                     {
+                         "label":  "Diritti",
+                         "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                     },
+                     {
+                         "label":  "File sorgente",
+                         "value":  "FDP_SCAT12.2_F266_UD017_ME_FOT01.jpg"
+                     }
+                 ],
+    "images":  [
+                   {
+                       "@type":  "oa:Annotation",
+                       "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01.json",
+                       "motivation":  "sc:painting",
+                       "resource":  {
+                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01/full/full/0/default.jpg",
+                                        "@type":  "dcterms:Image",
+                                        "format":  "image/jpeg",
+                                        "service":  {
+                                                        "@context":  "http://iiif.io/api/image/2/context.json",
+                                                        "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01",
+                                                        "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                    },
+                                        "width":  3427,
+                                        "height":  3185
+                                    },
+                       "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-santo-spirito-scavi-f266-doc. 17-fot01.json",
+                       "@context":  "http://iiif.io/api/presentation/2/context.json"
+                   }
+               ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

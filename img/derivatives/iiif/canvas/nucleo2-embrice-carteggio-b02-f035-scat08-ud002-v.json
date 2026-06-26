@@ -1,0 +1,59 @@
+---
+layout: none
+---
+{
+  "@type": "sc:Canvas",
+  "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v.json' | absolute_url }}",
+  "label": "Verso con annotazioni sul promontorio di Santo Spirito",
+  "width": 2530,
+  "height": 1769,
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v/full/250,/0/default.jpg' | absolute_url }}",
+  "metadata": [
+    {
+      "label": "Titolo",
+      "value": "Verso con annotazioni sul promontorio di Santo Spirito"
+    },
+    {
+      "label": "Tipologia",
+      "value": "verso fotografico con annotazioni"
+    },
+    {
+      "label": "Archivio / istituto",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Riferimento",
+      "value": "Fondo Pace, scat. 8, fasc. 192, doc. 2 verso"
+    },
+    {
+      "label": "Soggetto",
+      "value": "carteggio; appunti manoscritti; schizzo topografico; Santo Spirito"
+    },
+    {
+      "label": "File sorgente",
+      "value": "FDP_SCAT08_FASC192_UD002_ME_V.jpg"
+    }
+  ],
+  "images": [
+    {
+      "@type": "oa:Annotation",
+      "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v.json' | absolute_url }}",
+      "motivation": "sc:painting",
+      "resource": {
+        "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v/full/full/0/default.jpg' | absolute_url }}",
+        "@type": "dcterms:Image",
+        "format": "image/jpeg",
+        "service": {
+          "@context": "http://iiif.io/api/image/2/context.json",
+          "@id": "{{ '/img/derivatives/iiif/images/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v' | absolute_url }}",
+          "profile": "http://iiif.io/api/image/2/level0.json"
+        },
+        "width": 2530,
+        "height": 1769
+      },
+      "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-embrice-carteggio-b02-f035-scat08-ud002-v.json' | absolute_url }}",
+      "@context": "http://iiif.io/api/presentation/2/context.json"
+    }
+  ],
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}

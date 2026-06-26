@@ -1,0 +1,154 @@
+---
+layout: none
+---
+{
+    "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/sequence/davide-pace-sul-campo-lanfranchi-tomba3.json",
+    "@type":  "sc:Sequence",
+    "canvases":  [
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-lanfranchi-tomba3-r.json",
+                         "label":  "Gropello, dosso Lanfranchi. Tomba n. 3, recto",
+                         "width":  3533,
+                         "height":  2488,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-r/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Gropello, dosso Lanfranchi. Tomba n. 3, recto"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "stampa fotografica in bianco e nero"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Fondo",
+                                              "value":  "Fondo Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Archivio Davide Pace, b. 4, fasc. 106, doc. 9"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Gropello Cairoli, dosso Lanfranchi"
+                                          },
+                                          {
+                                              "label":  "Descrizione",
+                                              "value":  "Fotografia relativa alla necropoli di Gropello, sepolcreto del dosso Lanfranchi, tomba n. 3. Il recto documenta due operatori impegnati presso il contesto di scavo; il verso conserva l'annotazione manoscritta con l'indicazione del luogo, del soggetto e dell'affioramento iniziale."
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "Gropello Cairoli; necropoli; dosso Lanfranchi; tomba n. 3; scavo archeologico"
+                                          },
+                                          {
+                                              "label":  "Diritti",
+                                              "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F106_UD009_R.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-sul-campo-lanfranchi-tomba3-r.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-r/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-r",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3533,
+                                                             "height":  2488
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-lanfranchi-tomba3-r.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     },
+                     {
+                         "@type":  "sc:Canvas",
+                         "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-lanfranchi-tomba3-v.json",
+                         "label":  "Gropello, dosso Lanfranchi. Tomba n. 3, verso con annotazione",
+                         "width":  3566,
+                         "height":  2501,
+                         "thumbnail":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-v/full/250,/0/default.jpg",
+                         "metadata":  [
+                                          {
+                                              "label":  "Titolo",
+                                              "value":  "Gropello, dosso Lanfranchi. Tomba n. 3, verso con annotazione"
+                                          },
+                                          {
+                                              "label":  "Tipologia",
+                                              "value":  "verso di stampa fotografica con annotazione manoscritta"
+                                          },
+                                          {
+                                              "label":  "Archivio / istituto",
+                                              "value":  "Archivio Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Fondo",
+                                              "value":  "Fondo Davide Pace"
+                                          },
+                                          {
+                                              "label":  "Riferimento",
+                                              "value":  "Archivio Davide Pace, b. 4, fasc. 106, doc. 9"
+                                          },
+                                          {
+                                              "label":  "Luogo",
+                                              "value":  "Gropello Cairoli, dosso Lanfranchi"
+                                          },
+                                          {
+                                              "label":  "Descrizione",
+                                              "value":  "Verso della stampa con annotazione manoscritta: Gropello, dosso Lanfranchi, tomba n. 3, affioramento iniziale."
+                                          },
+                                          {
+                                              "label":  "Soggetto",
+                                              "value":  "annotazione manoscritta; Gropello; dosso Lanfranchi; tomba n. 3"
+                                          },
+                                          {
+                                              "label":  "Diritti",
+                                              "value":  "Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina"
+                                          },
+                                          {
+                                              "label":  "File sorgente",
+                                              "value":  "FDP_B04_F106_UD009_V.jpg"
+                                          }
+                                      ],
+                         "images":  [
+                                        {
+                                            "@type":  "oa:Annotation",
+                                            "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/annotation/davide-pace-sul-campo-lanfranchi-tomba3-v.json",
+                                            "motivation":  "sc:painting",
+                                            "resource":  {
+                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-v/full/full/0/default.jpg",
+                                                             "@type":  "dcterms:Image",
+                                                             "format":  "image/jpeg",
+                                                             "service":  {
+                                                                             "@context":  "http://iiif.io/api/image/2/context.json",
+                                                                             "@id":  "{{ '/' | relative_url }}img/derivatives/iiif/images/davide-pace-sul-campo-lanfranchi-tomba3-v",
+                                                                             "profile":  "http://iiif.io/api/image/2/level0.json"
+                                                                         },
+                                                             "width":  3566,
+                                                             "height":  2501
+                                                         },
+                                            "on":  "{{ '/' | relative_url }}img/derivatives/iiif/canvas/davide-pace-sul-campo-lanfranchi-tomba3-v.json",
+                                            "@context":  "http://iiif.io/api/presentation/2/context.json"
+                                        }
+                                    ],
+                         "@context":  "http://iiif.io/api/presentation/2/context.json"
+                     }
+                 ],
+    "@context":  "http://iiif.io/api/presentation/2/context.json"
+}

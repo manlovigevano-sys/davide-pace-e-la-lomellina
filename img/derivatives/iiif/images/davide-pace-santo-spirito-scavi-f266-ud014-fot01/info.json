@@ -1,0 +1,36 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/images/davide-pace-santo-spirito-scavi-f266-ud014-fot01' | absolute_url }}",
+  "protocol": "http://iiif.io/api/image",
+  "width": 3408,
+  "height": 3183,
+  "sizes": [
+    {
+      "width": 250,
+      "height": 233
+    },
+    {
+      "width": 1140,
+      "height": 1065
+    },
+    {
+      "width": 3408,
+      "height": 3183
+    },
+    {
+      "width": 3408,
+      "height": 3183
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "sizeByW"
+      ]
+    }
+  ]
+}

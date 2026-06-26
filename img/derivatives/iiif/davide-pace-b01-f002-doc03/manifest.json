@@ -1,0 +1,160 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '/img/derivatives/iiif/davide-pace-b01-f002-doc03/manifest.json' | absolute_url }}",
+  "@type": "sc:Manifest",
+  "label": "Ispettorato onorario alle antichità, b. 1, fasc. 2, doc. 3",
+  "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3/full/250,/0/default.jpg' | absolute_url }}",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "PID",
+      "value": "davide-pace-b01-f002-doc03"
+    },
+    {
+      "label": "PID precedente",
+      "value": "nucleo2-ispettorato-b01-f002-doc3"
+    },
+    {
+      "label": "Titolo",
+      "value": "Ispettorato onorario alle antichità, b. 1, fasc. 2, doc. 3"
+    },
+    {
+      "label": "Tipologia archivistica/documentaria",
+      "value": "fascicolo archivistico"
+    },
+    {
+      "label": "Tipo di contenuto digitale",
+      "value": "text"
+    },
+    {
+      "label": "Creatore",
+      "value": "Davide Pace"
+    },
+    {
+      "label": "Data",
+      "value": "1955-1957"
+    },
+    {
+      "label": "Luogo",
+      "value": "Gropello Cairoli (PV)"
+    },
+    {
+      "label": "Repository",
+      "value": "Archivio Davide Pace"
+    },
+    {
+      "label": "Segnatura archivistica",
+      "value": "Archivio Davide Pace, b. 1, fasc. 2, doc. 3"
+    },
+    {
+      "label": "Consistenza digitale",
+      "value": "1 immagine digitale"
+    },
+    {
+      "label": "Soggetti",
+      "value": "Gropello Cairoli; tutela archeologica; Davide Pace"
+    },
+    {
+      "label": "Soggettario / thesaurus",
+      "value": "Nuovo soggettario BNCF; Getty Art & Architecture Thesaurus (AAT); ICCD - normative e vocabolari catalografici"
+    },
+    {
+      "label": "Descrizione",
+      "value": "Avviso della Soprintendenza alle Antichità della Lombardia rivolto alla popolazione."
+    },
+    {
+      "label": "Diritti",
+      "value": "© Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina; CC BY-NC 4.0 https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Licenza",
+      "value": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    {
+      "label": "Collocazione attuale",
+      "value": "Museo Archeologico Nazionale della Lomellina"
+    },
+    {
+      "label": "Sezione mostra",
+      "value": "Comunità locale e tutela"
+    },
+    {
+      "label": "Rimando alla sezione",
+      "value": "/exhibits/comunità-locale/"
+    }
+  ],
+  "sequences": [
+    {
+      "@id": "{{ '/img/derivatives/iiif/sequence/nucleo2-ispettorato-b01-f002-doc3.json' | absolute_url }}",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "{{ '/img/derivatives/iiif/canvas/nucleo2-ispettorato-b01-f002-doc3-doc3.json' | absolute_url }}",
+          "label": "Avviso della Soprintendenza alle Antichità della Lombardia, doc. 3",
+          "width": 2068,
+          "height": 2901,
+          "thumbnail": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3/full/250,/0/default.jpg' | absolute_url }}",
+          "metadata": [
+            {
+              "label": "Titolo",
+              "value": "Avviso della Soprintendenza alle Antichità della Lombardia, doc. 3"
+            },
+            {
+              "label": "Tipologia",
+              "value": "circolare, avviso pubblico, regolamento"
+            },
+            {
+              "label": "Archivio / istituto",
+              "value": "Archivio Davide Pace"
+            },
+            {
+              "label": "Riferimento",
+              "value": "Fondo Pace, b. 1, fasc. 2, doc. 3"
+            },
+            {
+              "label": "Data",
+              "value": "29 dicembre 1955"
+            },
+            {
+              "label": "Luogo",
+              "value": "Gropello Cairoli"
+            },
+            {
+              "label": "File sorgente",
+              "value": "FDP_B01_F002_UD003_ME.jpg"
+            }
+          ],
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '/img/derivatives/iiif/annotation/nucleo2-ispettorato-b01-f002-doc3-doc3.json' | absolute_url }}",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3/full/full/0/default.jpg' | absolute_url }}",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3' | absolute_url }}",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2068,
+                "height": 2901
+              },
+              "on": "{{ '/img/derivatives/iiif/canvas/nucleo2-ispettorato-b01-f002-doc3-doc3.json' | absolute_url }}",
+              "@context": "http://iiif.io/api/presentation/2/context.json"
+            }
+          ],
+          "@context": "http://iiif.io/api/presentation/2/context.json"
+        }
+      ]
+    }
+  ],
+  "full": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3/full/full/0/default.jpg' | absolute_url }}",
+  "fullwidth": "{{ '/img/derivatives/iiif/images/nucleo2-ispettorato-b01-f002-doc3-doc3/full/1140,/0/default.jpg' | absolute_url }}"
+}
