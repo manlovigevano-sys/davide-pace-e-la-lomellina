@@ -32,14 +32,14 @@ show_title: false
         <li>Direzione regionale Musei Nazionali Lombardia - Museo Archeologico Nazionale della Lomellina (Vigevano)</li>
         <li>Università Ca' Foscari Venezia. Dipartimento di Studi Umanistici</li>
         <li>Venice Centre for Digital and Public Humanities (VeDPH)</li>
-        <li>DiCoLab. Cultura al digitale</li>
+        <li>Dicolab. Cultura al digitale</li>
         <li>Scuola nazionale del patrimonio e delle attività culturali</li>
       </ul>
     </article>
 
     <article>
       <h2><img class="credits-icon" src="{{ '/assets/images/credits/users-round.svg' | relative_url }}" alt="" aria-hidden="true">Realizzazione</h2>
-      <p>Mostra digitale e contenuti a cura di Grazia Solenne, borsista di ricerca presso l'Università Ca' Foscari Venezia nell'ambito del progetto DiCoLab. Cultura al digitale.</p>
+      <p>Mostra digitale e contenuti a cura di Grazia Solenne, borsista di ricerca presso l'Università Ca' Foscari Venezia nell'ambito del progetto Dicolab. Cultura al digitale.</p>
     </article>
   </section>
 
@@ -56,7 +56,7 @@ show_title: false
   <section class="credits-section credits-intro credits-section-warm">
     <h2>Finanziamento</h2>
 
-    <p>Progetto realizzato nell'ambito del programma DiCoLab. Cultura al digitale, promosso dalla Scuola nazionale del patrimonio e delle attività culturali e finanziato dall'Unione Europea - NextGenerationEU nell'ambito del Piano Nazionale di Ripresa e Resilienza (PNRR).</p>
+    <p>Progetto realizzato nell'ambito del programma DicoLab. Cultura al digitale, promosso dalla Scuola nazionale del patrimonio e delle attività culturali e finanziato dall'Unione Europea - NextGenerationEU nell'ambito del Piano Nazionale di Ripresa e Resilienza (PNRR).</p>
   </section>
 
   <section class="credits-section credits-section-light">
