@@ -12,7 +12,7 @@
 
 ## La mostra
 
-**"Davide Pace e la Lomellina" ** è una mostra digitale del **Museo Archeologico Nazionale della Lomellina (Vigevano)** dedicata alla valorizzazione del Fondo archivistico Davide Pace.
+**Davide Pace e la Lomellina** è una mostra digitale del **Museo Archeologico Nazionale della Lomellina (Vigevano)** dedicata alla valorizzazione del Fondo archivistico Davide Pace.
 
 Attraverso la documentazione d'archivio, i reperti archeologici, i modelli tridimensionali, le mappe interattive e le ricostruzioni digitali, la mostra racconta il lavoro di ricerca svolto da Davide Pace nel territorio della Lomellina e restituisce le relazioni tra archivio, collezioni museali e contesti archeologici.
 
