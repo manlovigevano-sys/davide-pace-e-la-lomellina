@@ -154,7 +154,7 @@ Si ringraziano il personale del Museo Archeologico Nazionale della Lomellina, Ma
 
 Se utilizzi questa mostra digitale per attività di ricerca, didattica o divulgazione, cita:
 
-> *Davide Pace e la Lomellina. Dall'archivio al patrimonio digitale*. Museo Archeologico Nazionale della Lomellina, Direzione regionale Musei nazionali Lombardia, 2026.
+> *Davide Pace e la Lomellina.*. Direzione regionale Musei nazionali Lombardia - Museo Archeologico Nazionale della Lomellina, 2026.
 
 ---
 
